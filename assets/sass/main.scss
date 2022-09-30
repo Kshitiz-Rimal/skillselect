@@ -7,7 +7,7 @@ body {
 }
 
 .hero-section-with-nav {
-  background-image: url("/img/SkillSelectAustralia.png");
+  background-image: url("/SkillSelectAustralia.png");
   background-size: cover;
   height: 100%;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body {
       }
     }
     .footer-form {
-      margin-left: 6rem;
+      margin-left: 10rem;
       label {
         color: black;
         display: flex;
@@ -115,7 +115,6 @@ body {
         font-weight: bold;
       }
       form {
-        padding-top: 8px;
         input,
         select {
           margin-left: 1%;

@@ -46,7 +46,7 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item me-5">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active"  href="index.html">Home</a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link" href="#">About Us</a>
@@ -197,6 +197,7 @@
             />
             <br />
             <textarea
+              type="message"
               class="form-control"
               name="message"
               rows="3"
@@ -209,37 +210,8 @@
         </div>
       </div>
     </section>
-
-    <div class="go-to-top">
-      <button
-        onclick="topFunction()"
-        id="goToTop"
-        title="Go to top"
-        style="display: block"
-      >
-        <i
-          class="bi-arrow-up d-flex align-items-center justify-content-center"
-        ></i>
-      </button>
-    </div>
-
-    <!-- WhatsApp -->
-    <div class="whatsapp-chatra">
-      <a
-        href="https://api.whatsapp.com/send?phone=61480097490&amp;text=Hello,%20Can%20you%20please%20provide%20me%20more%20information?"
-        class="back-to-whatsapp d-flex align-items-center justify-content-center"
-        id="whatsapp"
-        target="_blank"
-        ><i class="bi-whatsapp"></i
-      ></a>
-    </div>
-    <!-- whatsapp end -->
-
-    <!-- footer -->
-    <footer>
-      <p>Copyrights 2022 ©All Rights Reserved - Skill Select Australia</p>
-    </footer>
-
-    <script src="./assets/js/go-to-top.js"></script>
+   <my-footer></my-footer>
   </body>
+  <script src="./assets/js/footer.js"></script>
+  <script src="./assets/js/go-to-top.js"></script>
 </html>

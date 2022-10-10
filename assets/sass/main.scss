@@ -117,8 +117,6 @@ body {
       form {
         input,
         select {
-          margin-left: 1%;
-          margin-right: 1%;
           color: #000;
           border: 2px solid #a1deff;
           border-radius: 10px;
@@ -136,60 +134,65 @@ body {
         input[type="text"] {
           font-size: 15px;
         }
+        textarea,
+        select {
+          color: #000;
+          border: 2px solid #a1deff;
+          border-radius: 10px;
+        }
         textarea::placeholder {
-            font-weight: bold;
-            opacity: 0.5;
-            color: red;
-            font-size: 15px;
-          }
-        button{
-            border-radius: 5px;
-            border-color: red;
-            opacity: 0.5;
+          font-weight: bold;
+          opacity: 0.5;
+          color: red;
+          font-size: 15px;
+        }
+        button {
+          border-radius: 5px;
+          border-color: red;
+          opacity: 0.5;
         }
       }
     }
   }
 }
-.whatsapp-chatra{
-    a{
-        color: #fff;
-    }
-    i{
-        font-size: 35px;
-        padding-bottom: 2px;
-    }
-    .back-to-whatsapp {
-        position: fixed;
-        left: 15px;
-        bottom: 20px;
-        z-index: 996;
-        background:#25D366;
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        transition: all .4s;
-    }
-}
-
-#goToTop{
+.whatsapp-chatra {
+  a {
+    color: #fff;
+  }
+  i {
+    font-size: 35px;
+    padding-bottom: 2px;
+  }
+  .back-to-whatsapp {
     position: fixed;
-    left: 70px;
-    bottom: 25px;
+    left: 15px;
+    bottom: 20px;
     z-index: 996;
-    border: none;
-    background-color: #a1deff;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
+    background: #25d366;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
-    i{
-        color: white;
-        background-color: #a1deff;
-        font-size: 25px;
-    }
+    transition: all 0.4s;
+  }
 }
 
+#goToTop {
+  position: fixed;
+  left: 70px;
+  bottom: 25px;
+  z-index: 996;
+  border: none;
+  background-color: #a1deff;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  i {
+    color: white;
+    background-color: #a1deff;
+    font-size: 25px;
+  }
+}
 
 footer {
   justify-content: center;

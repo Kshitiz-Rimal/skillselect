@@ -7,7 +7,7 @@ body {
 }
 
 .hero-section-with-nav {
-  background-image: url("E:/Work/SkillAssessmentAustralia/Website/skillselectaustralia.png");
+  background-image: url("./skillselectaustralia.png");
   background-size: cover;
   height: 100%;
   background-repeat: no-repeat;

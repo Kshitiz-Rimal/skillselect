@@ -10,6 +10,14 @@ body {
   background-color: #a1deff;
 }
 
+.navbar-nav {
+  font-size: 20px !important;
+}
+
+.nav-link {
+  padding-right: 10px !important;
+}
+
 .whatsapp-chatra a {
   color: #fff;
 }

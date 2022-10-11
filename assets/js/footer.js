@@ -44,22 +44,17 @@ function topFunction() {
   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
 }
 
-// (function(d, w, c) {
-//     w.ChatraID = '9iRKaD6dErHtazY4s';
-//     var s = d.createElement('script');
-//     w[c] = w[c] || function() {
-//         (w[c].q = w[c].q || []).push(arguments);
-//     };
-//     s.async = true;
-//     s.src = 'https://call.chatra.io/chatra.js';
-//     if (d.head) d.head.appendChild(s);
-// })(document, window, 'Chatra');
+window.onscroll = function () {
+    changeColor();
+  };
+    function changeColor() {
+      document.getElementById("navbar").style.backgroundColor = "#A1DEFF";
+      if (window.scrollY == 0) {
+        changeColorto();
+      }
+    }
+    function changeColorto() {
+      document.getElementById("navbar").style.backgroundColor = "";
+    }
 
-// function scrollFunction() {
-//     document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? (mybutton.style.display = "block") : (mybutton.style.display = "none");
-// }
-// function topFunction() {
-//     (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
-// }
-// (mybutton = document.getElementById("goToTop")),
-// (window.onscroll = function () {scrollFunction();});
+

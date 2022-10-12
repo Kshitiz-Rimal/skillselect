@@ -13,10 +13,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.hero-section-with-nav .navbar-nav {
+.navbar-nav {
   font-size: 20px !important;
 }
-.hero-section-with-nav .nav-link {
+.nav-link {
   padding-right: 10px !important;
 }
 .hero-section-with-nav .hero-section {

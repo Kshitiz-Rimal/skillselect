@@ -114,7 +114,7 @@ window.onscroll = function () {
 };
 function changeColor() {
   document.getElementById("navbar").style.backgroundColor = "#A1DEFF";
-  if (window.scrollY == 0) {
+  if (window.scrollY == 0 && window.location.href == "index.html") {
     changeColorto();
   }
 }

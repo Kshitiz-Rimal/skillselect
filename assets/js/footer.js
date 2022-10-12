@@ -1,6 +1,74 @@
 class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
+    <section class="above-footer pt-3">
+      <div class="content">
+        <div class="Services">
+          <label>Our Services</label><br />
+          <a href="#" class="bi-chevron-right">sadbskjdb</a><br /><br />
+          <a href="#" class="bi-chevron-right">sadbskjdbasddqiwe</a><br /><br />
+          <a href="#" class="bi-chevron-right">sadbskjdasjdhb</a><br /><br />
+          <a href="#" class="bi-chevron-right">sadbskjdvxjvcb</a><br /><br />
+          <a href="#" class="bi-chevron-right">sadbskjdsdufb</a><br /><br />
+          <a href="#" class="bi-chevron-right">sadbskjdbksjdfb</a><br /><br />
+        </div>
+
+        <div class="Blogs">
+          <label>Our Blogs</label><br />
+          <a href="#" class="bi-chevron-right"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a
+          ><br /><br />
+          <a href="#" class="bi-chevron-right"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+          ><br /><br />
+          <a href="#" class="bi-chevron-right"
+            >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+          ><br /><br />
+          <a href="#" class="bi-chevron-right"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+          ><br /><br />
+          <a href="#" class="bi-chevron-right"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+          ><br /><br />
+          <a href="#" class="bi-chevron-right"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+          ><br /><br />
+        </div>
+
+        <div class="footer-form">
+          <label>Leave Us a Message</label><br />
+
+          <form>
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Your Name*"
+              required=""
+            />
+            <br />
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="Your Email*"
+              required=""
+            />
+            <br />
+            <textarea
+              type="message"
+              class="form-control"
+              name="message"
+              rows="3"
+              placeholder="Message*"
+              required=""
+            ></textarea>
+            <br />
+            <button class="btn-all m-0 mb-3" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section> 
          <footer>
             <p>Copyrights 2022 ©All Rights Reserved - Skill Select Australia</p>
          </footer>
@@ -28,12 +96,9 @@ class MyFooter extends HTMLElement {
         </button>
         </div>
         `;
-
   }
 }
 customElements.define("my-footer", MyFooter);
-
-
 
 function scrollFunction() {
   document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
@@ -45,16 +110,14 @@ function topFunction() {
 }
 
 window.onscroll = function () {
-    changeColor();
-  };
-    function changeColor() {
-      document.getElementById("navbar").style.backgroundColor = "#A1DEFF";
-      if (window.scrollY == 0) {
-        changeColorto();
-      }
-    }
-    function changeColorto() {
-      document.getElementById("navbar").style.backgroundColor = "";
-    }
-
-
+  changeColor();
+};
+function changeColor() {
+  document.getElementById("navbar").style.backgroundColor = "#A1DEFF";
+  if (window.scrollY == 0) {
+    changeColorto();
+  }
+}
+function changeColorto() {
+  document.getElementById("navbar").style.backgroundColor = "";
+}

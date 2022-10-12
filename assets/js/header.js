@@ -21,18 +21,18 @@ class MyHeader extends HTMLElement {
         >
           <ul class="navbar-nav">
             <li class="nav-item me-5">
-              <a class="nav-link active" aria-current="page" href="../../index.html"
+              <a class="nav-link active" aria-current="page" href="../../../index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" href="../../about-us.html">About Us</a>
+              <a class="nav-link" href="../../../about-us.html">About Us</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" href="../../blog.html">Blog</a>
+              <a class="nav-link" href="../../../blog.html">Blog</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" id="contact" href="../../contact-us.html">Contact Us</a>
+              <a class="nav-link" id="contact" href="../../../contact-us.html">Contact Us</a>
             </li>
           </ul>
         </div>

@@ -240,3 +240,7 @@ footer p {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
 }
+
+.my-navbar #navbar {
+  background-color: #a1deff;
+}

@@ -42,15 +42,3 @@ class MyHeader extends HTMLElement {
   }
 }
 customElements.define("my-header", MyHeader);
-window.onscroll = function () {
-  changeColor();
-};
-function changeColor() {
-  document.getElementById("navbar").style.backgroundColor = "#A1DEFF";
-  if (window.scrollY == 0 && window.location.href == "index.html") {
-    changeColorto();
-  }
-}
-function changeColorto() {
-  document.getElementById("navbar").style.backgroundColor = "";
-}

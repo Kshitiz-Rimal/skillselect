@@ -26,7 +26,7 @@ class MyHeader extends HTMLElement {
               >
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" href="aboutus.html">About Us</a>
+              <a class="nav-link" href="aboutus">About Us</a>
             </li>
             <li class="nav-item me-5">
               <a class="nav-link" href="blog.html">Blog</a>

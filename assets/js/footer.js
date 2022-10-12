@@ -108,16 +108,3 @@ function scrollFunction() {
 function topFunction() {
   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
 }
-
-window.onscroll = function () {
-  changeColor();
-};
-function changeColor() {
-  document.getElementById("navbar").style.backgroundColor = "#A1DEFF";
-  if (window.scrollY == 0 && window.location.href == "index.html") {
-    changeColorto();
-  }
-}
-function changeColorto() {
-  document.getElementById("navbar").style.backgroundColor = "";
-}

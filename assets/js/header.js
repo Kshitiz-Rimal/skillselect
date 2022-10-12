@@ -1,6 +1,6 @@
 class MyHeader extends HTMLElement {
-  connectedCallback(){
-      this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
       <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">LOGO</a>
@@ -41,4 +41,16 @@ class MyHeader extends HTMLElement {
       `;
   }
 }
-customElements.define('my-header', MyHeader)
+customElements.define("my-header", MyHeader);
+window.onscroll = function () {
+  changeColor();
+};
+function changeColor() {
+  document.getElementById("navbar").style.backgroundColor = "#A1DEFF";
+  if (window.scrollY == 0 && window.location.href == "index.html") {
+    changeColorto();
+  }
+}
+function changeColorto() {
+  document.getElementById("navbar").style.backgroundColor = "";
+}

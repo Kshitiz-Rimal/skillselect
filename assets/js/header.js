@@ -26,13 +26,13 @@ class MyHeader extends HTMLElement {
               >
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item me-5">
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" id="contact" href="#">Contact Us</a>
+              <a class="nav-link" id="contact" href="contact-us.html">Contact Us</a>
             </li>
           </ul>
         </div>

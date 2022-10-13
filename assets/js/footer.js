@@ -5,12 +5,12 @@ class MyFooter extends HTMLElement {
       <div class="content">
         <div class="Services">
           <label>Our Services</label><br />
-          <a href="#" class="bi-chevron-right">sadbskjdb</a><br /><br />
-          <a href="#" class="bi-chevron-right">sadbskjdbasddqiwe</a><br /><br />
-          <a href="#" class="bi-chevron-right">sadbskjdasjdhb</a><br /><br />
-          <a href="#" class="bi-chevron-right">sadbskjdvxjvcb</a><br /><br />
-          <a href="#" class="bi-chevron-right">sadbskjdsdufb</a><br /><br />
-          <a href="#" class="bi-chevron-right">sadbskjdbksjdfb</a><br /><br />
+          <a href="#" class="bi-chevron-right">CDR Report Writing</a><br /><br />
+          <a href="#" class="bi-chevron-right">Career Episode Writing</a><br /><br />
+          <a href="#" class="bi-chevron-right">Summary Statement</a><br /><br />
+          <a href="#" class="bi-chevron-right">ACS RPL Report Writing</a><br /><br />
+          <a href="#" class="bi-chevron-right">KAO2 Knowledge assessment</a><br /><br />
+          <a href="#" class="bi-chevron-right">CDR Report Review Services</a><br /><br />
         </div>
 
         <div class="Blogs">

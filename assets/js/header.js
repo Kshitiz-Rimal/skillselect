@@ -29,7 +29,7 @@ class MyHeader extends HTMLElement {
               <a class="nav-link" href="./aboutus.html">About Us</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle d-none d-lg-block" href="#" role="button" aria-expanded="false">
+              <a class="nav-link dropdown-toggle d-none d-lg-block" href="./our-services.html" role="button" aria-expanded="false">
                 Services
               </a>
               <ul class="dropdown-menu">
@@ -47,13 +47,13 @@ class MyHeader extends HTMLElement {
         
             
             <li class="nav-item">
-              <a class="nav-link" href="./aboutus.html">ANZSCO codes</a>
+              <a class="nav-link" href="./anzsco.html">ANZSCO codes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./aboutus.html">CDR samples</a>
+              <a class="nav-link" href="./cdrsamples.html">CDR samples</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="contact" href="./contactus.html">Contact Us</a>

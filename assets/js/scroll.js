@@ -1,5 +1,6 @@
 window.onscroll = function () {
   changeColor();
+  scrollFunction();
 };
 function changeColor() {
   document.getElementById("navbar").style.backgroundColor = "#A1DEFF";

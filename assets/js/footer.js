@@ -88,7 +88,6 @@ class MyFooter extends HTMLElement {
             onclick="topFunction()"
             id="goToTop"
             title="Go to top"
-            style="display: block"
         >
         <i
           class="bi-arrow-up d-flex align-items-center justify-content-center"
@@ -101,9 +100,16 @@ class MyFooter extends HTMLElement {
 customElements.define("my-footer", MyFooter);
 
 function scrollFunction() {
-  document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
-    ? (mybutton.style.display = "block")
-    : (mybutton.style.display = "none");
+  if (
+    document.body.scrollTop > 300 ||
+    document.documentElement.scrollTop > 300
+  ) {
+    document.getElementById("goToTop").style.visibility = "visible";
+    document.getElementById("goToTop").style.opacity = "1";
+  } else {
+    document.getElementById("goToTop").style.visibility = "hidden";
+    document.getElementById("goToTop").style.opacity = "0";
+  }
 }
 function topFunction() {
   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);

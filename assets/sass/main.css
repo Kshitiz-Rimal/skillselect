@@ -1,42 +1,46 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
 
-.hero-section-with-nav {
+.hero-section {
+  display: flex;
+  align-items: center;
   background-image: url("../../img/SkillSelectAustralia.png");
-  background-size: cover;
-  height: 100%;
   background-repeat: no-repeat;
-  background-position: center;
-}
-.hero-section-with-nav .hero-section {
+  background-size: cover;
+  height: 100vh;
   color: #a1deff;
-  margin-top: 15%;
-  margin-left: 5%;
+  -o-object-fit: fill;
+     object-fit: fill;
   font-size: 30%;
 }
-.hero-section-with-nav .hero-section h1 {
+.hero-section h1 {
   font-size: 50px;
 }
-.hero-section-with-nav .hero-section h2 {
+.hero-section h2 {
   font-size: 20px;
   color: black;
 }
-.hero-section-with-nav form {
+
+form {
   display: block;
   padding-top: 45px;
 }
-.hero-section-with-nav form .btn {
+form .btn {
   background: #a1deff;
   color: #fff;
   margin: 1%;
 }
-.hero-section-with-nav form input,
-.hero-section-with-nav form select {
+form input,
+form select {
   margin-left: 1%;
   margin-right: 1%;
   color: #000;
@@ -47,34 +51,30 @@ body {
   height: 40px;
   margin-bottom: 0;
 }
-.hero-section-with-nav form input::-moz-placeholder {
+form input::-moz-placeholder {
   font-weight: bold;
   opacity: 0.5;
   color: red;
   font-size: 15px;
 }
-.hero-section-with-nav form input:-ms-input-placeholder {
+form input:-ms-input-placeholder {
   font-weight: bold;
   opacity: 0.5;
   color: red;
   font-size: 15px;
 }
-.hero-section-with-nav form input::placeholder {
+form input::placeholder {
   font-weight: bold;
   opacity: 0.5;
   color: red;
   font-size: 15px;
 }
-.hero-section-with-nav form input[type=text] {
+form input[type=text] {
   font-size: 15px;
-}
-
-.navbar-nav {
-  font-size: 20px !important;
 }
 
 .nav-link {
-  padding-right: 10px !important;
+  padding-right: 15px !important;
 }
 
 .body-section {
@@ -209,6 +209,9 @@ body {
 }
 
 #goToTop {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 600ms, visibility 600ms;
   position: fixed;
   left: 70px;
   bottom: 25px;
@@ -251,4 +254,8 @@ footer p {
   position: relative;
   width: 30%;
   margin-right: 2em;
+}
+
+#navbar {
+  transition: 0.3s ease-in-out;
 }/*# sourceMappingURL=main.css.map */

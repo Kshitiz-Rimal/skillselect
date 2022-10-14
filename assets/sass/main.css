@@ -13,14 +13,11 @@ body {
 .hero-section {
   display: flex;
   align-items: center;
-  background-image: url("../../img/SkillSelectAustralia.png");
-  background-repeat: no-repeat;
+  background: url("../../img/SkillSelectAustralia.png") 50% 100%;
   background-size: cover;
-  height: 100vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   color: #a1deff;
-  -o-object-fit: fill;
-     object-fit: fill;
-  font-size: 30%;
 }
 .hero-section h1 {
   font-size: 50px;

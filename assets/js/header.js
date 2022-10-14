@@ -47,7 +47,8 @@ class MyHeader extends HTMLElement {
       </div>
     </div>
   </nav>
-</header>
+  </header>
+
       `;
   }
 }

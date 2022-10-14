@@ -238,7 +238,7 @@ footer p {
 }
 
 .my-navbar {
-  background-color: #a1deff;
+  background-color: #a1deff !important;
 }
 
 .dropdown:hover .dropdown-menu {

@@ -1,7 +1,7 @@
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-<header class="fixed-top">
+
   <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">LOGO</a>

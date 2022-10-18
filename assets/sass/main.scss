@@ -11,6 +11,10 @@ body {
   background-color: #f4f4f4;
 }
 
+section {
+  padding: 2px;
+}
+
 .hero-section {
   display: flex;
   align-items: center;
@@ -45,7 +49,6 @@ form {
   .btn {
     background: #a1deff;
     color: #fff;
-
     margin: 1%;
   }
 
@@ -83,14 +86,29 @@ form {
 }
 
 .body-section {
-  margin: 5%;
+  margin-top: 30px;
 
-  .chooseus {
-    h1 {
+  .chooseus,
+  .customer_review,
+  .faq,
+  .container-fluid {
+    margin-top: 15px;
+
+    h2 {
       justify-content: center;
       align-items: center;
       display: flex;
     }
+
+  }
+}
+
+.container {
+  .card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding-top: 3px;
   }
 }
 

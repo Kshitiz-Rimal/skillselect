@@ -67,6 +67,9 @@
 #body-section #client_review .row img {
   border-radius: 80px;
 }
+#body-section #our_services {
+  position: relative;
+}
 
 .nav-link {
   padding-right: 15px !important;

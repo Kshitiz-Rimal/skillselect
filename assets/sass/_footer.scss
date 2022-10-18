@@ -1,0 +1,135 @@
+#goToTop {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 600ms, visibility 600ms;
+    position: fixed;
+    left: 70px;
+    bottom: 25px;
+    z-index: 996;
+    border: none;
+    background-color: #a1deff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+
+    i {
+        color: white;
+        background-color: #a1deff;
+        font-size: 25px;
+    }
+}
+
+.whatsapp-chatra {
+    a {
+        color: #fff;
+    }
+
+    i {
+        font-size: 35px;
+        padding-bottom: 2px;
+    }
+
+    .back-to-whatsapp {
+        position: fixed;
+        left: 15px;
+        bottom: 20px;
+        z-index: 996;
+        background: #25d366;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        transition: all 0.4s;
+    }
+}
+
+#above_footer {
+    padding: 2rem 0;
+    background-color: #bbedff;
+
+    .row {
+        label {
+            color: black;
+            font-size: 27;
+            font-weight: bold;
+
+            a {
+                font-size: 25;
+            }
+        }
+
+
+
+        .footer-form {
+
+            label {
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            label {
+                font-size: 27;
+                font-weight: bold;
+            }
+
+            form {
+
+                input,
+                select {
+                    color: #000;
+                    border: 2px solid #a1deff;
+                    border-radius: 10px;
+                    // width: 300px;
+                    height: 40px;
+                    margin-bottom: 0;
+                }
+
+                input::placeholder {
+                    font-weight: bold;
+                    opacity: 0.5;
+                    color: red;
+                    font-size: 15px;
+                }
+
+                input[type="text"] {
+                    font-size: 15px;
+                }
+
+                textarea,
+                select {
+                    color: #000;
+                    border: 2px solid #a1deff;
+                    border-radius: 10px;
+                }
+
+                textarea::placeholder {
+                    font-weight: bold;
+                    opacity: 0.5;
+                    color: red;
+                    font-size: 15px;
+                }
+
+                button {
+                    border-radius: 5px;
+                    border-color: red;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #a1deff;
+
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}

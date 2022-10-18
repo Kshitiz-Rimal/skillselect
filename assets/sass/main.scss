@@ -1,293 +1,40 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
-}
-
-section {
-  padding: 2px;
-}
-
-.hero-section {
-  display: flex;
-  align-items: center;
-  background: url("../../img/SkillSelectAustralia.png") 50% 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  // max-width: 100vw;
-  color: #a1deff;
-
-  // max-width: 100%;
-  // height: auto;
-  // position: relative;
-  // background-position: initial;
 
 
-  h1 {
-    font-size: 50px;
-  }
-
-  h2 {
-    font-size: 20px;
-    color: black;
-  }
-}
-
-form {
-
-  display: block;
-  padding-top: 45px;
-
-  .btn {
-    background: #a1deff;
-    color: #fff;
-    margin: 1%;
-  }
-
-  input,
-  select {
-    margin-left: 1%;
-    margin-right: 1%;
-    color: #000;
-    border: 2px solid #a1deff;
-    border-radius: 10px;
-    /* box-shadow: -10px 2px 20px 10px rgb(0 0 0 / 10%); */
-    width: 160px;
-    height: 40px;
-    margin-bottom: 0;
-  }
-
-  input::placeholder {
-    font-weight: bold;
-    opacity: 0.5;
-    color: red;
-    font-size: 15px;
-  }
-
-  input[type="text"] {
-    font-size: 15px;
-  }
-}
-
-// }
 
 
+@import "./index";
 
 .nav-link {
   padding-right: 15px !important;
 }
 
-.body-section {
-  margin-top: 30px;
-
-  .chooseus,
-  .customer_review,
-  .faq,
-  .container-fluid {
-    margin-top: 15px;
-
-    h2 {
-      justify-content: center;
-      align-items: center;
-      display: flex;
-    }
-
-  }
+section {
+  padding: 4rem 0;
 }
 
-.container {
-  .card img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    padding-top: 3px;
-  }
-}
-
-.above-footer {
-  height: auto;
-  background-color: #bbedff;
-
-  .content {
-    margin-left: 5%;
-    display: flex;
-
-    .services {
-      color: black;
-
-      label {
-        font-size: 27;
-        font-weight: bold;
-
-        a {
-          font-size: 25;
-        }
-      }
-    }
-
-    .blogs {
-      margin-left: 10rem;
-      color: black;
-
-      label {
-        font-size: 27;
-        font-weight: bold;
-
-        a {
-          font-size: 25;
-        }
-      }
-    }
-
-    .footer-form {
-      margin-left: 10rem;
-
-      label {
-        color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      label {
-        font-size: 27;
-        font-weight: bold;
-      }
-
-      form {
-
-        input,
-        select {
-          color: #000;
-          border: 2px solid #a1deff;
-          border-radius: 10px;
-          /* box-shadow: -10px 2px 20px 10px rgb(0 0 0 / 10%); */
-          width: 300px;
-          height: 40px;
-          margin-bottom: 0;
-        }
-
-        input::placeholder {
-          font-weight: bold;
-          opacity: 0.5;
-          color: red;
-          font-size: 15px;
-        }
-
-        input[type="text"] {
-          font-size: 15px;
-        }
-
-        textarea,
-        select {
-          color: #000;
-          border: 2px solid #a1deff;
-          border-radius: 10px;
-        }
-
-        textarea::placeholder {
-          font-weight: bold;
-          opacity: 0.5;
-          color: red;
-          font-size: 15px;
-        }
-
-        button {
-          border-radius: 5px;
-          border-color: red;
-          opacity: 0.5;
-        }
-      }
-    }
-  }
-}
-
-.whatsapp-chatra {
-  a {
-    color: #fff;
-  }
-
-  i {
-    font-size: 35px;
-    padding-bottom: 2px;
-  }
-
-  .back-to-whatsapp {
-    position: fixed;
-    left: 15px;
-    bottom: 20px;
-    z-index: 996;
-    background: #25d366;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    transition: all 0.4s;
-  }
-}
-
-#goToTop {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 600ms, visibility 600ms;
-  position: fixed;
-  left: 70px;
-  bottom: 25px;
-  z-index: 996;
-  border: none;
-  background-color: #a1deff;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-
-
-  i {
-    color: white;
-    background-color: #a1deff;
-    font-size: 25px;
-  }
-}
-
-footer {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-color: #a1deff;
-
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-}
-
-
-.for-others {
-  background-color: #a1deff !important;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-}
-
-.row {
-  .card {
-    justify-content: center;
-    position: relative;
-    width: 30%;
-    margin-right: 2em;
-
-  }
-}
+@import "./footer";
 
 #navbar {
   transition: 0.3s ease-in-out;
 }
+
+// .for-others {
+//   background-color: #a1deff !important;
+// }
+
+// .dropdown:hover .dropdown-menu {
+//   display: block;
+//   margin-top: 0;
+// }
+
+// .row {
+//   .card {
+//     justify-content: center;
+//     position: relative;
+//     width: 30%;
+//     margin-right: 2em;
+
+//   }
+// }

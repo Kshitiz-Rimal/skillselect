@@ -9,18 +9,18 @@
     color: #006E9D;
 
     h1 {
-        font-size: 50px;
+        font-size: 3 rem;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 1rem;
         color: black;
     }
 
     form {
 
         display: block;
-        padding-top: 45px;
+        padding-top: 3rem;
 
         .btn {
             background: #006E9D;
@@ -36,8 +36,8 @@
             border: 2px solid #006E9D;
             border-radius: 10px;
             /* box-shadow: -10px 2px 20px 10px rgb(0 0 0 / 10%); */
-            width: 160px;
-            height: 40px;
+            width: 10rem;
+            height: 2rem;
             margin-bottom: 0;
         }
 
@@ -45,11 +45,11 @@
             font-weight: bold;
             opacity: 0.5;
             color: red;
-            font-size: 15px;
+            font-size: 1rem;
         }
 
         input[type="text"] {
-            font-size: 15px;
+            font-size: 1rem;
         }
     }
 }
@@ -68,7 +68,7 @@
     #client_review {
         .row {
             img {
-                border-radius: 80px;
+                border-radius: 5rem;
             }
         }
 

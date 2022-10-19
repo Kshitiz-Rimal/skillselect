@@ -7,7 +7,7 @@
     bottom: 25px;
     z-index: 996;
     border: none;
-    background-color: #a1deff;
+    background-color: #006E9D;
     cursor: pointer;
     width: 40px;
     height: 40px;
@@ -16,7 +16,7 @@
 
     i {
         color: white;
-        background-color: #a1deff;
+        background-color: #006E9D;
         font-size: 25px;
     }
 }
@@ -45,8 +45,9 @@
 }
 
 #above_footer {
+    color: white;
     padding: 2rem 0;
-    background-color: #bbedff;
+    background-color: #2D729B;
 
     .row {
         label {
@@ -123,10 +124,11 @@
 }
 
 footer {
+    color: white;
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: #a1deff;
+    background-color: #006E9D;
 
     p {
         margin-top: 5px;

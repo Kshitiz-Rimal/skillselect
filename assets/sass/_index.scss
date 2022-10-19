@@ -30,8 +30,8 @@
 
         input,
         select {
-            margin-left: 1%;
-            margin-right: 1%;
+            padding: 0rem 0.6rem;
+            margin: 0 2% 0 0;
             color: #000;
             border: 2px solid #006E9D;
             border-radius: 10px;
@@ -87,7 +87,7 @@
         color: white;
 
         .container-fluid {
-            background-color: #1B3B6D !important;
+            background-color: #2D729B !important
         }
     }
 }

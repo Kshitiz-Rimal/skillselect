@@ -26,8 +26,8 @@
 }
 #hero form input,
 #hero form select {
-  margin-left: 1%;
-  margin-right: 1%;
+  padding: 0rem 0.6rem;
+  margin: 0 2% 0 0;
   color: #000;
   border: 2px solid #006E9D;
   border-radius: 10px;
@@ -81,7 +81,7 @@
 #body-section #contact_us .container-fluid,
 #body-section #Steps_of_work .container-fluid,
 #body-section #prices .container-fluid {
-  background-color: #1B3B6D !important;
+  background-color: #2D729B !important;
 }
 
 .nav-link {
@@ -101,7 +101,7 @@ section {
   bottom: 25px;
   z-index: 996;
   border: none;
-  background-color: #a1deff;
+  background-color: #006E9D;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -109,7 +109,7 @@ section {
 }
 #goToTop i {
   color: white;
-  background-color: #a1deff;
+  background-color: #006E9D;
   font-size: 25px;
 }
 
@@ -133,8 +133,9 @@ section {
 }
 
 #above_footer {
+  color: white;
   padding: 2rem 0;
-  background-color: #bbedff;
+  background-color: #2D729B;
 }
 #above_footer .row label {
   color: black;
@@ -214,10 +215,11 @@ section {
 }
 
 footer {
+  color: white;
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: #a1deff;
+  background-color: #006E9D;
 }
 footer p {
   margin-top: 5px;

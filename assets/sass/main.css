@@ -67,8 +67,14 @@
 #body-section #client_review .row img {
   border-radius: 80px;
 }
+#body-section #client_review i {
+  color: #ffa534;
+}
 #body-section #our_services {
   position: relative;
+}
+#body-section #Steps_of_work .container-fluid {
+  background-color: #1B3B6D !important;
 }
 
 .nav-link {

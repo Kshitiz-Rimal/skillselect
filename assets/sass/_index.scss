@@ -71,9 +71,19 @@
                 border-radius: 80px;
             }
         }
+
+        i {
+            color: #ffa534;
+        }
     }
 
     #our_services {
         position: relative;
+    }
+
+    #Steps_of_work {
+        .container-fluid {
+            background-color: #1B3B6D !important;
+        }
     }
 }

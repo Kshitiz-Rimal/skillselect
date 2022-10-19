@@ -73,6 +73,9 @@
 #body-section #our_services {
   position: relative;
 }
+#body-section #Steps_of_work {
+  color: white;
+}
 #body-section #Steps_of_work .container-fluid {
   background-color: #1B3B6D !important;
 }

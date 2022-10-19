@@ -6,7 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color: #a1deff;
+  color: #006E9D;
 }
 #hero h1 {
   font-size: 50px;
@@ -20,7 +20,7 @@
   padding-top: 45px;
 }
 #hero form .btn {
-  background: #2FBAF7;
+  background: #006E9D;
   color: #fff;
   margin: 1%;
 }

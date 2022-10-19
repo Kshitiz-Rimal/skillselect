@@ -20,7 +20,7 @@
   padding-top: 45px;
 }
 #hero form .btn {
-  background: #a1deff;
+  background: #2FBAF7;
   color: #fff;
   margin: 1%;
 }
@@ -73,10 +73,14 @@
 #body-section #our_services {
   position: relative;
 }
-#body-section #Steps_of_work {
+#body-section #contact_us,
+#body-section #Steps_of_work,
+#body-section #prices {
   color: white;
 }
-#body-section #Steps_of_work .container-fluid {
+#body-section #contact_us .container-fluid,
+#body-section #Steps_of_work .container-fluid,
+#body-section #prices .container-fluid {
   background-color: #1B3B6D !important;
 }
 

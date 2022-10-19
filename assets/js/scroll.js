@@ -3,7 +3,7 @@ window.onscroll = function () {
   scrollFunction();
 };
 function changeColor() {
-  document.getElementById("navbar").style.backgroundColor = "#14305D";
+  document.getElementById("navbar").style.backgroundColor = "#2FBAF7";
   // document.getElementById("navbar").style.color = "#fff";
   if (window.scrollY == 0) {
     changeColorto();

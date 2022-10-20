@@ -41,7 +41,7 @@ class MyHeader extends HTMLElement {
             <a class="nav-link" id="contact" href="./contactus.html">Contact Us</a>
           </li>
           <a href="#">
-          <button class="btn btn-primary">Chat Us</button>
+          <button class="btn btn-primary">Chat with Us</button>
         </a>
         </ul>
       </div>
@@ -53,3 +53,17 @@ class MyHeader extends HTMLElement {
   }
 }
 customElements.define("my-header", MyHeader);
+
+
+(function (d, w, c) {
+  w.ChatraID = "99ijTmoJgpnR3Mvoq";
+  var s = d.createElement("script");
+  w[c] =
+    w[c] ||
+    function () {
+      (w[c].q = w[c].q || []).push(arguments);
+    };
+  s.async = true;
+  s.src = "https://call.chatra.io/chatra.js";
+  if (d.head) d.head.appendChild(s);
+})(document, window, "Chatra");

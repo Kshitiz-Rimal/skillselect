@@ -55,6 +55,10 @@ class MyFooter extends HTMLElement {
           </div>
         </div>
       </section>
+
+      
+
+
       <footer>
         <p>Copyrights 2022 ©All Rights Reserved - Skill Select Australia</p>
       </footer>
@@ -62,6 +66,10 @@ class MyFooter extends HTMLElement {
   }
 }
 customElements.define("my-footer", MyFooter);
+
+
+
+
 
 function scrollFunction() {
   if (

@@ -1,0 +1,93 @@
+#hero {
+    display: flex;
+    align-items: center;
+    background: url("../../img/hero-bg-image.png") 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    // max-width: 100vw;
+    color: #006E9D;
+
+    h1 {
+        font-size: 3 rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        color: black;
+    }
+
+    form {
+
+        display: block;
+        padding-top: 3rem;
+
+        .btn {
+            background: #006E9D;
+            color: #fff;
+            margin: 1%;
+        }
+
+        input,
+        select {
+            padding: 0rem 0.6rem;
+            margin: 0 2% 0 0;
+            color: #000;
+            border: 2px solid #006E9D;
+            border-radius: 10px;
+            /* box-shadow: -10px 2px 20px 10px rgb(0 0 0 / 10%); */
+            width: 10rem;
+            height: 2rem;
+            margin-bottom: 0;
+        }
+
+        input::placeholder {
+            font-weight: bold;
+            opacity: 0.5;
+            color: red;
+            font-size: 1rem;
+        }
+
+        input[type="text"] {
+            font-size: 1rem;
+        }
+    }
+}
+
+#body-section {
+    .row {
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+
+    #client_review {
+        .row {
+            img {
+                border-radius: 5rem;
+            }
+        }
+
+        i {
+            color: #ffa534;
+        }
+    }
+
+    #our_services {
+        position: relative;
+    }
+
+    #contact_us,
+    #Steps_of_work,
+    #prices {
+        color: white;
+
+        .container-fluid {
+            background-color: #2D729B !important
+        }
+    }
+}

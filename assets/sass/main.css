@@ -1,0 +1,231 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+#hero {
+  display: flex;
+  align-items: center;
+  background: url("../../img/hero-bg-image.png") 50% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #006E9D;
+}
+#hero h1 {
+  font-size: 3 rem;
+}
+#hero h2 {
+  font-size: 1rem;
+  color: black;
+}
+#hero form {
+  display: block;
+  padding-top: 3rem;
+}
+#hero form .btn {
+  background: #006E9D;
+  color: #fff;
+  margin: 1%;
+}
+#hero form input,
+#hero form select {
+  padding: 0rem 0.6rem;
+  margin: 0 2% 0 0;
+  color: #000;
+  border: 2px solid #006E9D;
+  border-radius: 10px;
+  /* box-shadow: -10px 2px 20px 10px rgb(0 0 0 / 10%); */
+  width: 10rem;
+  height: 2rem;
+  margin-bottom: 0;
+}
+#hero form input::-moz-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 1rem;
+}
+#hero form input:-ms-input-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 1rem;
+}
+#hero form input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 1rem;
+}
+#hero form input[type=text] {
+  font-size: 1rem;
+}
+
+#body-section .row h2 {
+  text-align: center;
+}
+#body-section .row p {
+  text-align: justify;
+}
+#body-section #client_review .row img {
+  border-radius: 5rem;
+}
+#body-section #client_review i {
+  color: #ffa534;
+}
+#body-section #our_services {
+  position: relative;
+}
+#body-section #contact_us,
+#body-section #Steps_of_work,
+#body-section #prices {
+  color: white;
+}
+#body-section #contact_us .container-fluid,
+#body-section #Steps_of_work .container-fluid,
+#body-section #prices .container-fluid {
+  background-color: #2D729B !important;
+}
+
+.nav-link {
+  padding-right: 15px !important;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+#goToTop {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 600ms, visibility 600ms;
+  position: fixed;
+  left: 70px;
+  bottom: 25px;
+  z-index: 996;
+  border: none;
+  background-color: #006E9D;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+#goToTop i {
+  color: white;
+  background-color: #006E9D;
+  font-size: 25px;
+}
+
+.whatsapp-chatra a {
+  color: #fff;
+}
+.whatsapp-chatra i {
+  font-size: 35px;
+  padding-bottom: 2px;
+}
+.whatsapp-chatra .back-to-whatsapp {
+  position: fixed;
+  left: 15px;
+  bottom: 20px;
+  z-index: 996;
+  background: #25d366;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+#above_footer {
+  color: white;
+  padding: 2rem 0;
+  background-color: #2D729B;
+}
+#above_footer .row label {
+  color: black;
+  font-size: 27;
+  font-weight: bold;
+}
+#above_footer .row label a {
+  font-size: 25;
+}
+#above_footer .row .footer-form label {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#above_footer .row .footer-form label {
+  font-size: 27;
+  font-weight: bold;
+}
+#above_footer .row .footer-form form input,
+#above_footer .row .footer-form form select {
+  color: #000;
+  border: 2px solid #a1deff;
+  border-radius: 10px;
+  height: 40px;
+  margin-bottom: 0;
+}
+#above_footer .row .footer-form form input::-moz-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 15px;
+}
+#above_footer .row .footer-form form input:-ms-input-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 15px;
+}
+#above_footer .row .footer-form form input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 15px;
+}
+#above_footer .row .footer-form form input[type=text] {
+  font-size: 15px;
+}
+#above_footer .row .footer-form form textarea,
+#above_footer .row .footer-form form select {
+  color: #000;
+  border: 2px solid #a1deff;
+  border-radius: 10px;
+}
+#above_footer .row .footer-form form textarea::-moz-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 15px;
+}
+#above_footer .row .footer-form form textarea:-ms-input-placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 15px;
+}
+#above_footer .row .footer-form form textarea::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+  font-size: 15px;
+}
+#above_footer .row .footer-form form button {
+  border-radius: 5px;
+  border-color: red;
+  opacity: 0.5;
+}
+
+footer {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #006E9D;
+}
+footer p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#navbar {
+  transition: 0.3s ease-in-out;
+}/*# sourceMappingURL=main.css.map */

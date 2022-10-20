@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+
+
+
+@import "./index";
+
+.nav-link {
+  padding-right: 15px !important;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+@import "./footer";
+
+#navbar {
+  transition: 0.3s ease-in-out;
+}
+
+// .for-others {
+//   background-color: #a1deff !important;
+// }
+
+// .dropdown:hover .dropdown-menu {
+//   display: block;
+//   margin-top: 0;
+// }
+
+// .row {
+//   .card {
+//     justify-content: center;
+//     position: relative;
+//     width: 30%;
+//     margin-right: 2em;
+
+//   }
+// }

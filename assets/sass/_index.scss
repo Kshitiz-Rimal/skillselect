@@ -17,56 +17,18 @@
         color: black;
     }
 
-    // form {
-
-    //     display: block;
-    //     padding-top: 3rem;
-
-    //     .btn {
-    //         background: #006E9D;
-    //         color: #fff;
-    //         margin: 1%;
-    //     }
-
-    //     input,
-    //     select {
-    //         padding: 0rem 0.6rem;
-    //         margin: 0 2% 0 0;
-    //         color: #000;
-    //         border: 2px solid #006E9D;
-    //         border-radius: 10px;
-    //         /* box-shadow: -10px 2px 20px 10px rgb(0 0 0 / 10%); */
-    //         width: 10rem;
-    //         height: 2rem;
-    //         margin-bottom: 0;
-    //     }
-
-    //     input::placeholder {
-    //         font-weight: bold;
-    //         opacity: 0.5;
-    //         color: red;
-    //         font-size: 1rem;
-    //     }
-
-    //     input[type="text"] {
-    //         font-size: 1rem;
-    //     }
-    // }
 
     .card {
         margin-left: 8.5%;
         width: 19rem;
         background-color: #EEEFF3;
-        // align-items: center;
-        // border-radius: 30px;
-        border: none;
-        // opacity: 63%;
+
+        border-color: #006E9D;
 
         .hero-form {
 
 
             label {
-                // color: #fff;
                 font-size: 27;
                 font-weight: bold;
                 margin-bottom: 10px;
@@ -92,8 +54,7 @@
 
                 input::placeholder {
                     font-weight: bold;
-                    // opacity: 0.5;
-                    // color: red;
+                    opacity: 0.5;
                     font-size: 15px;
 
                 }
@@ -106,15 +67,13 @@
                     color: #000;
                     border: 2px solid #a1deff;
                     border-radius: 10px;
-                    // margin-bottom: 10px;
                     margin: 0 7% 10px 7%;
                     width: 86%;
                 }
 
                 textarea::placeholder {
                     font-weight: bold;
-                    // opacity: 0.5;
-                    // color: red;
+                    opacity: 0.5;
                     font-size: 15px;
                 }
 

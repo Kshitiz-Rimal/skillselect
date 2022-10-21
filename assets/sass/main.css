@@ -19,7 +19,7 @@
   margin-left: 8.5%;
   width: 19rem;
   background-color: #EEEFF3;
-  border: none;
+  border-color: #006E9D;
 }
 #hero .card .hero-form label {
   font-size: 27;
@@ -37,14 +37,17 @@
 }
 #hero .card .hero-form form input::-moz-placeholder {
   font-weight: bold;
+  opacity: 0.5;
   font-size: 15px;
 }
 #hero .card .hero-form form input:-ms-input-placeholder {
   font-weight: bold;
+  opacity: 0.5;
   font-size: 15px;
 }
 #hero .card .hero-form form input::placeholder {
   font-weight: bold;
+  opacity: 0.5;
   font-size: 15px;
 }
 #hero .card .hero-form form input[type=text] {
@@ -59,14 +62,17 @@
 }
 #hero .card .hero-form form textarea::-moz-placeholder {
   font-weight: bold;
+  opacity: 0.5;
   font-size: 15px;
 }
 #hero .card .hero-form form textarea:-ms-input-placeholder {
   font-weight: bold;
+  opacity: 0.5;
   font-size: 15px;
 }
 #hero .card .hero-form form textarea::placeholder {
   font-weight: bold;
+  opacity: 0.5;
   font-size: 15px;
 }
 #hero .card .hero-form form button {

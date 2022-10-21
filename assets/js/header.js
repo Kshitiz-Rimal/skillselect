@@ -38,6 +38,9 @@ class MyHeader extends HTMLElement {
             <a class="nav-link" href="./cdrsamples.html">CDR samples</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="./pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" id="contact" href="./contactus.html">Contact Us</a>
           </li>
           

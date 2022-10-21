@@ -47,7 +47,7 @@ class MyFooter extends HTMLElement {
                   <textarea type="message" class="form-control" name="message" rows="3" placeholder="Message*"
                     required=""></textarea>
                   <br />
-                  <button class="btn btn-primary m-0 mb-3" type="submit">Send Message</button>
+                  <button class="btn btn-primary  mb-3" type="submit">Send Message</button>
                 </form>
               </div>
             </div>

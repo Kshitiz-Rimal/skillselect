@@ -79,6 +79,10 @@
   border-radius: 10px;
 }
 
+#body-section #about_us h2,
+#body-section #why_us h2 {
+  margin-bottom: 25px;
+}
 #body-section .row h2 {
   text-align: center;
 }

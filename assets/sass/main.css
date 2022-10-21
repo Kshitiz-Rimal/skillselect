@@ -22,6 +22,7 @@
   border-bottom: none;
   height: auto;
   width: 27%;
+  border-radius: 0px;
 }
 #hero .container-fluid .form-row .card .hero-form label {
   font-size: 20px;
@@ -58,6 +59,7 @@
 }
 #hero .container-fluid .form-row .card .hero-form form button {
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 
 #body-section #about_us h2,

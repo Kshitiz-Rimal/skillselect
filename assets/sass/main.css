@@ -100,6 +100,10 @@
 .navbar .nav-link {
   padding-right: 20px !important;
 }
+.navbar ul.navbar-nav .active {
+  font-weight: bold;
+  color: black;
+}
 .navbar button {
   margin-left: 30px;
 }

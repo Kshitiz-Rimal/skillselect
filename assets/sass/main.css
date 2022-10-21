@@ -18,7 +18,7 @@
   background-color: #fff;
   bottom: 0;
   border-bottom: none;
-  height: 45vh;
+  height: auto;
   width: 27%;
 }
 #hero .container-fluid .form-row .card .hero-form label {

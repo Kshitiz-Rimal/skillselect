@@ -2,8 +2,10 @@
 #hero {
   display: flex;
   align-items: center;
+  background: url("../../img/hero-bg-image-raw.png") 50% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
-  background-color: #EEEFF3;
   color: #006E9D;
 }
 #hero h1 {
@@ -27,6 +29,7 @@
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 #hero .container-fluid .form-row .card .hero-form form input,
 #hero .container-fluid .form-row .card .hero-form form textarea {

@@ -67,10 +67,6 @@ class MyFooter extends HTMLElement {
 }
 customElements.define("my-footer", MyFooter);
 
-
-
-
-
 function scrollFunction() {
   if (
     document.body.scrollTop > 300 ||

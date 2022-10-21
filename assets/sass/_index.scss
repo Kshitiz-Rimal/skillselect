@@ -46,7 +46,7 @@
                         textarea {
                             color: #000;
                             // border: 2px solid #a1deff;
-                            // border-radius: 0px;
+                            border-radius: 0px;
                             margin: 0 7% 10px 7%;
                             width: 86%;
 
@@ -65,8 +65,8 @@
                         }
 
                         button {
-                            border-radius: 10px;
-                            padding-bottom: 20px;
+                            border-radius: 0px;
+                            // padding-bottom: 20px;
                         }
                     }
                 }
@@ -100,6 +100,10 @@
             img {
                 border-radius: 5rem;
             }
+
+            .card {
+                border-radius: 0px;
+            }
         }
 
         i {
@@ -118,6 +122,12 @@
 
         .container-fluid {
             background-color: #2D729B !important
+        }
+    }
+
+    #contact_us {
+        a {
+            border-radius: 0px;
         }
     }
 

@@ -59,13 +59,15 @@
                 font-size: 25;
             }
         }
-        
-        .Services,.Blogs{
-            label{
+
+        .Services,
+        .Blogs {
+            label {
                 color: #fff;
                 padding-bottom: 7px;
             }
-            a{
+
+            a {
                 color: #fff;
                 text-decoration: none;
             }
@@ -82,16 +84,16 @@
                 margin-bottom: 10px;
             }
 
-            
+
 
             form {
-                
+
 
                 input,
                 select {
                     color: #000;
                     border: 2px solid #a1deff;
-                    border-radius: 10px;
+                    border-radius: 0px;
                     // width: 300px;
                     height: 40px;
                     margin-bottom: 0;
@@ -99,8 +101,6 @@
 
                 input::placeholder {
                     font-weight: bold;
-                    opacity: 0.5;
-                    color: red;
                     font-size: 15px;
                 }
 
@@ -112,18 +112,16 @@
                 select {
                     color: #000;
                     border: 2px solid #a1deff;
-                    border-radius: 10px;
+                    border-radius: 0px;
                 }
 
                 textarea::placeholder {
                     font-weight: bold;
-                    opacity: 0.5;
-                    color: red;
                     font-size: 15px;
                 }
 
                 button {
-                    border-radius: 10px;
+                    border-radius: 0px;
                 }
             }
         }

@@ -83,6 +83,16 @@
 #body-section #prices .container-fluid {
   background-color: #2D729B !important;
 }
+#body-section #Steps_of_work .nav-tabs .nav-link.active {
+  color: #000;
+}
+#body-section #Steps_of_work .nav-tabs .nav-link {
+  color: white;
+}
+#body-section .accordion-button:not(.collapsed) {
+  background-color: #2D729B;
+  color: white;
+}
 
 .nav-link {
   padding-right: 15px !important;
@@ -145,15 +155,19 @@ section {
 #above_footer .row label a {
   font-size: 25;
 }
-#above_footer .row .footer-form label {
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#above_footer .row .Services label, #above_footer .row .Blogs label {
+  color: #fff;
+  padding-bottom: 7px;
+}
+#above_footer .row .Services a, #above_footer .row .Blogs a {
+  color: #fff;
+  text-decoration: none;
 }
 #above_footer .row .footer-form label {
+  color: #fff;
   font-size: 27;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 #above_footer .row .footer-form form input,
 #above_footer .row .footer-form form select {
@@ -209,9 +223,7 @@ section {
   font-size: 15px;
 }
 #above_footer .row .footer-form form button {
-  border-radius: 5px;
-  border-color: red;
-  opacity: 0.5;
+  border-radius: 10px;
 }
 
 footer {

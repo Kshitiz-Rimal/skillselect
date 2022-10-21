@@ -90,4 +90,19 @@
             background-color: #2D729B !important
         }
     }
+
+    
+    #Steps_of_work .nav-tabs .nav-link.active{
+        color: #000;
+       
+    }
+
+    #Steps_of_work .nav-tabs .nav-link{
+        color: white;
+    }
+
+    .accordion-button:not(.collapsed){
+        background-color: #2D729B;
+        color: white;
+    }
 }

@@ -47,7 +47,7 @@ class MyFooter extends HTMLElement {
                   <textarea type="message" class="form-control" name="message" rows="3" placeholder="Message*"
                     required=""></textarea>
                   <br />
-                  <button class="btn-all m-0 mb-3" type="submit">Send Message</button>
+                  <button class="btn btn-primary m-0 mb-3" type="submit">Send Message</button>
                 </form>
               </div>
             </div>
@@ -55,6 +55,10 @@ class MyFooter extends HTMLElement {
           </div>
         </div>
       </section>
+
+      
+
+
       <footer>
         <p>Copyrights 2022 ©All Rights Reserved - Skill Select Australia</p>
       </footer>
@@ -62,6 +66,10 @@ class MyFooter extends HTMLElement {
   }
 }
 customElements.define("my-footer", MyFooter);
+
+
+
+
 
 function scrollFunction() {
   if (

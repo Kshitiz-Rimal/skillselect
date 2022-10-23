@@ -63,6 +63,7 @@
 #body-section #about_us p,
 #body-section #why_us p {
   font-size: larger;
+  padding: 0px;
 }
 #body-section .row h2 {
   text-align: center;

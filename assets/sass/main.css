@@ -40,19 +40,13 @@
   width: 86%;
 }
 #hero .container-fluid .form-row .card .hero-form form input::-moz-placeholder, #hero .container-fluid .form-row .card .hero-form form textarea::-moz-placeholder {
-  font-weight: bold;
-  opacity: 0.5;
   font-size: 15px;
 }
 #hero .container-fluid .form-row .card .hero-form form input:-ms-input-placeholder, #hero .container-fluid .form-row .card .hero-form form textarea:-ms-input-placeholder {
-  font-weight: bold;
-  opacity: 0.5;
   font-size: 15px;
 }
 #hero .container-fluid .form-row .card .hero-form form input::placeholder,
 #hero .container-fluid .form-row .card .hero-form form textarea::placeholder {
-  font-weight: bold;
-  opacity: 0.5;
   font-size: 15px;
 }
 #hero .container-fluid .form-row .card .hero-form form input[type=text] {
@@ -88,6 +82,10 @@
 #body-section #our_services {
   position: relative;
 }
+#body-section #our_services .card {
+  border-radius: 0px;
+  height: 190px;
+}
 #body-section #contact_us,
 #body-section #Steps_of_work,
 #body-section #prices {
@@ -98,7 +96,8 @@
 #body-section #prices .container-fluid {
   background-color: #2D729B !important;
 }
-#body-section #contact_us a {
+#body-section #contact_us a,
+#body-section #prices a {
   border-radius: 0px;
 }
 #body-section #Steps_of_work .nav-tabs .nav-link.active {
@@ -106,6 +105,7 @@
 }
 #body-section #Steps_of_work .nav-tabs .nav-link {
   color: white;
+  border-radius: 0px;
 }
 #body-section .accordion-button:not(.collapsed) {
   background-color: #2D729B;
@@ -125,7 +125,7 @@
 }
 
 section {
-  padding: 4rem 0;
+  padding-top: 2rem;
 }
 
 #goToTop {
@@ -198,44 +198,24 @@ section {
   margin-bottom: 10px;
 }
 #above_footer .row .footer-form form input,
-#above_footer .row .footer-form form select {
+#above_footer .row .footer-form form textarea {
   color: #000;
   border: 2px solid #a1deff;
   border-radius: 0px;
   height: 40px;
   margin-bottom: 0;
 }
-#above_footer .row .footer-form form input::-moz-placeholder {
-  font-weight: bold;
+#above_footer .row .footer-form form input::-moz-placeholder, #above_footer .row .footer-form form textarea::-moz-placeholder {
   font-size: 15px;
 }
-#above_footer .row .footer-form form input:-ms-input-placeholder {
-  font-weight: bold;
+#above_footer .row .footer-form form input:-ms-input-placeholder, #above_footer .row .footer-form form textarea:-ms-input-placeholder {
   font-size: 15px;
 }
-#above_footer .row .footer-form form input::placeholder {
-  font-weight: bold;
+#above_footer .row .footer-form form input::placeholder,
+#above_footer .row .footer-form form textarea::placeholder {
   font-size: 15px;
 }
 #above_footer .row .footer-form form input[type=text] {
-  font-size: 15px;
-}
-#above_footer .row .footer-form form textarea,
-#above_footer .row .footer-form form select {
-  color: #000;
-  border: 2px solid #a1deff;
-  border-radius: 0px;
-}
-#above_footer .row .footer-form form textarea::-moz-placeholder {
-  font-weight: bold;
-  font-size: 15px;
-}
-#above_footer .row .footer-form form textarea:-ms-input-placeholder {
-  font-weight: bold;
-  font-size: 15px;
-}
-#above_footer .row .footer-form form textarea::placeholder {
-  font-weight: bold;
   font-size: 15px;
 }
 #above_footer .row .footer-form form button {

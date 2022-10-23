@@ -40,11 +40,11 @@ class MyFooter extends HTMLElement {
                 <label>Leave Us a Message</label><br />
 
                 <form>
-                  <input type="text" name="name" class="form-control" placeholder="Your Name*" required="" />
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="" />
                   <br />
-                  <input type="email" class="form-control" name="email" placeholder="Your Email*" required="" />
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="" />
                   <br />
-                  <textarea type="message" class="form-control" name="message" rows="3" placeholder="Message*"
+                  <textarea type="message" class="form-control" name="message" rows="3" placeholder="Message"
                     required=""></textarea>
                   <br />
                   <button class="btn btn-primary  mb-3" type="submit">Send Message</button>

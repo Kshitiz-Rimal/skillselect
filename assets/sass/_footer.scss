@@ -90,7 +90,7 @@
 
 
                 input,
-                select {
+                textarea {
                     color: #000;
                     border: 2px solid #a1deff;
                     border-radius: 0px;
@@ -99,24 +99,13 @@
                     margin-bottom: 0;
                 }
 
-                input::placeholder {
-                    font-weight: bold;
+                input::placeholder,
+                textarea::placeholder {
+                    // font-weight: bold;
                     font-size: 15px;
                 }
 
                 input[type="text"] {
-                    font-size: 15px;
-                }
-
-                textarea,
-                select {
-                    color: #000;
-                    border: 2px solid #a1deff;
-                    border-radius: 0px;
-                }
-
-                textarea::placeholder {
-                    font-weight: bold;
                     font-size: 15px;
                 }
 

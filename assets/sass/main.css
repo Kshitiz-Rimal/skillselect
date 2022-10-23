@@ -66,6 +66,10 @@
 #body-section #why_us h2 {
   margin-bottom: 25px;
 }
+#body-section #about_us p,
+#body-section #why_us p {
+  font-size: larger;
+}
 #body-section .row h2 {
   text-align: center;
 }

@@ -20,18 +20,12 @@ class MyFooter extends HTMLElement {
             <div class="col-lg-5">
               <div class="Blogs">
                 <label>Our Blogs</label><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor, sit amet consectetur adipisicing
-                  elit.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit, amet consectetur adipisicing
-                  elit.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.</a><br /><br />
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor, sit amet.</a><br /><br />
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit, amet.</a><br /><br />
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
               </div>
             </div>
 

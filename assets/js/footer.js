@@ -29,7 +29,8 @@ class MyFooter extends HTMLElement {
               </div>
             </div>
 
-             <div class="col-lg-5">
+
+            <div class="col-lg-5">
               <div class="Blogs">
                 <label>Our Blogs</label><br />
                 <a href="#" class="bi-chevron-right">Lorem ipsum dolor, sit amet.</a><br /><br />
@@ -71,3 +72,22 @@ customElements.define("my-footer", MyFooter);
 // function topFunction() {
 //   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
 // }
+
+{
+  /* <div class="col-lg-4">
+            //   <div class="footer-form">
+            //     <label>Leave Us a Message</label><br />
+
+            //     <form>
+            //       <input type="text" name="name" class="form-control" placeholder="Your Name" required="" />
+            //       <br />
+            //       <input type="email" class="form-control" name="email" placeholder="Your Email" required="" />
+            //       <br />
+            //       <textarea type="message" class="form-control" name="message" rows="3" placeholder="Message"
+            //         required=""></textarea>
+            //       <br />
+            //       <button class="btn btn-primary  mb-3" type="submit">Send Message</button>
+            //     </form>
+            //   </div>
+            // </div> */
+}

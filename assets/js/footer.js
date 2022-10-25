@@ -61,18 +61,18 @@ class MyFooter extends HTMLElement {
 }
 customElements.define("my-footer", MyFooter);
 
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 300 ||
-    document.documentElement.scrollTop > 300
-  ) {
-    document.getElementById("goToTop").style.visibility = "visible";
-    document.getElementById("goToTop").style.opacity = "1";
-  } else {
-    document.getElementById("goToTop").style.visibility = "hidden";
-    document.getElementById("goToTop").style.opacity = "0";
-  }
-}
-function topFunction() {
-  (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
-}
+// function scrollFunction() {
+//   if (
+//     document.body.scrollTop > 300 ||
+//     document.documentElement.scrollTop > 300
+//   ) {
+//     document.getElementById("goToTop").style.visibility = "visible";
+//     document.getElementById("goToTop").style.opacity = "1";
+//   } else {
+//     document.getElementById("goToTop").style.visibility = "hidden";
+//     document.getElementById("goToTop").style.opacity = "0";
+//   }
+// }
+// function topFunction() {
+//   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
+// }

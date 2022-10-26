@@ -9,8 +9,6 @@
 .navbar {
   .nav-link {
     padding-right: 20px !important;
-    // font-weight: bold;
-    // color: black;
   }
 
   ul.navbar-nav .active {
@@ -22,6 +20,7 @@
   button {
     margin-left: 30px;
     border-radius: 0px;
+    height: fit-content;
   }
 }
 

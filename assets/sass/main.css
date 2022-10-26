@@ -132,7 +132,7 @@
 }
 #body-section #above-footer-form .card {
   background-color: #2D729B;
-  border-bottom: none;
+  border: none;
   height: auto;
   width: 27%;
   border-radius: 0px;
@@ -180,6 +180,9 @@
 .navbar button {
   margin-left: 30px;
   border-radius: 0px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 section {
@@ -227,36 +230,6 @@ section {
 #above_footer .row .Blogs a {
   color: #fff;
   text-decoration: none;
-}
-#above_footer .row .footer-form label {
-  color: #fff;
-  font-size: 27;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-#above_footer .row .footer-form form input,
-#above_footer .row .footer-form form textarea {
-  color: #000;
-  border: 2px solid #a1deff;
-  border-radius: 0px;
-  height: 40px;
-  margin-bottom: 0;
-}
-#above_footer .row .footer-form form input::-moz-placeholder, #above_footer .row .footer-form form textarea::-moz-placeholder {
-  font-size: 15px;
-}
-#above_footer .row .footer-form form input:-ms-input-placeholder, #above_footer .row .footer-form form textarea:-ms-input-placeholder {
-  font-size: 15px;
-}
-#above_footer .row .footer-form form input::placeholder,
-#above_footer .row .footer-form form textarea::placeholder {
-  font-size: 15px;
-}
-#above_footer .row .footer-form form input[type=text] {
-  font-size: 15px;
-}
-#above_footer .row .footer-form form button {
-  border-radius: 0px;
 }
 
 footer {

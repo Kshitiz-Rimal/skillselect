@@ -2,6 +2,9 @@ class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <section id="above_footer">
+
+      
+
         <div class="container">
           <div class="row">
             <div class="col-lg-3">

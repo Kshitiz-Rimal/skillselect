@@ -83,9 +83,11 @@
 #body-section #our_services {
   position: relative;
 }
-#body-section #our_services .card {
-  border-radius: 0px;
-  height: 190px;
+#body-section #our_services h4 {
+  padding-bottom: 1rem;
+}
+#body-section #our_services i {
+  font-size: xxx-large;
 }
 #body-section #contact_us,
 #body-section #Steps_of_work,
@@ -111,6 +113,22 @@
 #body-section .accordion-button:not(.collapsed) {
   background-color: #2D729B;
   color: white;
+}
+#body-section #Steps_of_work {
+  overflow-x: hidden;
+}
+#body-section #Steps_of_work h2 span {
+  font-weight: 700;
+}
+#body-section #Steps_of_work .tab-pane .img-content {
+  margin-right: calc(50% - 50vw);
+  background-color: #fff;
+}
+#body-section #Steps_of_work .tab-pane .img-content .img-section {
+  background-color: #2D729B;
+}
+#body-section #Steps_of_work .tab-pane .img-content .content-section {
+  color: #000;
 }
 #body-section #above-footer-form .card {
   background-color: #2D729B;

@@ -112,9 +112,12 @@
     #our_services {
         position: relative;
 
-        .card {
-            border-radius: 0px;
-            height: 190px;
+        h4 {
+            padding-bottom: 1rem;
+        }
+
+        i {
+            font-size: xxx-large;
         }
     }
 
@@ -148,6 +151,31 @@
     .accordion-button:not(.collapsed) {
         background-color: #2D729B;
         color: white;
+    }
+
+    #Steps_of_work {
+        overflow-x: hidden;
+
+        h2 {
+            span {
+                font-weight: 700
+            }
+        }
+
+        .tab-pane {
+            .img-content {
+                margin-right: calc(50% - 50vw);
+                background-color: #fff;
+
+                .img-section {
+                    background-color: #2D729B;
+                }
+
+                .content-section {
+                    color: #000;
+                }
+            }
+        }
     }
 
     #above-footer-form {

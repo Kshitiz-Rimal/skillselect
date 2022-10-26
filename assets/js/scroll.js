@@ -6,7 +6,7 @@ window.onscroll = function () {
 };
 function changeColor() {
   document.getElementById("navbar").style.backgroundColor = "#006E9D";
-
+  document.getElementById("colorswitch").src = "./img/logo_whiteBG.png";
   if (window.scrollY == 0) {
     changeColorto();
   } else {
@@ -17,7 +17,7 @@ function changeColor() {
 }
 function changeColorto() {
   document.getElementById("navbar").style.backgroundColor = "";
-
+  document.getElementById("colorswitch").src = "./img/Logo.png";
   for (let i = 0; i <= x.length; i++) {
     x[i].style.color = "#000";
   }

@@ -113,14 +113,14 @@
   color: white;
 }
 #body-section #above-footer-form .card {
-  background-color: #fff;
+  background-color: #2D729B;
   border-bottom: none;
   height: auto;
   width: 27%;
   border-radius: 0px;
 }
 #body-section #above-footer-form .card .footer-form label {
-  color: #006E9D;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;

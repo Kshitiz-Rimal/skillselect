@@ -12,10 +12,10 @@ class MyHeader extends HTMLElement {
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link items active" id="nav-link1" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link items active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link items dropdown-toggle d-none d-lg-block" id="nav-link2" href="./our-services.html" role="button"
+            <a class="nav-link items dropdown-toggle" href="./our-services.html" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Services
             </a>

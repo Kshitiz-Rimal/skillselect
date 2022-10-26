@@ -6,9 +6,14 @@
 
 @import "./index";
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   .nav-link {
     padding-right: 20px !important;
+    color: #000;
   }
 
   ul.navbar-nav .active {

@@ -5,6 +5,7 @@
   background: url("../../img/hero-bg-image-raw.png") 50% 70%;
   background-size: cover;
   background-repeat: no-repeat;
+  max-height: 100vh;
   min-height: 100vh;
   color: #006E9D;
 }
@@ -170,8 +171,13 @@
   border-radius: 0px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar .nav-link {
   padding-right: 20px !important;
+  color: #000;
 }
 .navbar ul.navbar-nav .active {
   font-weight: bold;

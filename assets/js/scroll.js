@@ -1,14 +1,24 @@
+let x = document.querySelectorAll(".items");
+
 window.onscroll = function () {
   changeColor();
-  scrollFunction();
+  // scrollFunction();
 };
 function changeColor() {
   document.getElementById("navbar").style.backgroundColor = "#006E9D";
-  // document.querySelectorAll('#nav-link1,#nav-link2').style.color = "#fff";
+
   if (window.scrollY == 0) {
     changeColorto();
+  } else {
+    for (let i = 0; i <= x.length; i++) {
+      x[i].style.color = "#fff";
+    }
   }
 }
 function changeColorto() {
   document.getElementById("navbar").style.backgroundColor = "";
+
+  for (let i = 0; i <= x.length; i++) {
+    x[i].style.color = "#000";
+  }
 }

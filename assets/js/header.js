@@ -12,10 +12,10 @@ class MyHeader extends HTMLElement {
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" id="nav-link1" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link items active" id="nav-link1" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle d-none d-lg-block" id="nav-link2" href="./our-services.html" role="button"
+            <a class="nav-link items dropdown-toggle d-none d-lg-block" id="nav-link2" href="./our-services.html" role="button"
               aria-expanded="false">
               Services
             </a>
@@ -29,19 +29,19 @@ class MyHeader extends HTMLElement {
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="./anzsco.html">ANZSCO codes</a>
+            <a class="nav-link items"  href="./anzsco.html">ANZSCO codes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./blog.html">Blog</a>
+            <a class="nav-link items" href="./blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./cdrsamples.html">CDR samples</a>
+            <a class="nav-link items" href="./cdrsamples.html">CDR samples</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pricing.html">Pricing</a>
+            <a class="nav-link items" href="./pricing.html">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="contact" href="./contactus.html">Contact Us</a>
+            <a class="nav-link items" id="contact" href="./contactus.html">Contact Us</a>
           </li>
           
           <button class="btn btn-primary" onclick="Chatra('openChat', true)">Chat Us</button>

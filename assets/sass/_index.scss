@@ -149,6 +149,23 @@
         border-radius: 0px;
     }
 
+    .sow-bt {
+        .nav-link {
+            background-color: #2D729B;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #fff;
+            color: #000;
+
+        }
+
+        .nav-tabs .nav-link {
+            color: #000;
+            border-radius: 0px;
+        }
+    }
+
     .accordion-button:not(.collapsed) {
         background-color: #2D729B;
         color: white;

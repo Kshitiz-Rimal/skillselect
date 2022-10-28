@@ -111,6 +111,17 @@
   color: white;
   border-radius: 0px;
 }
+#body-section .sow-bt .nav-link {
+  background-color: #2D729B;
+}
+#body-section .sow-bt .nav-tabs .nav-link.active {
+  background-color: #fff;
+  color: #000;
+}
+#body-section .sow-bt .nav-tabs .nav-link {
+  color: #000;
+  border-radius: 0px;
+}
 #body-section .accordion-button:not(.collapsed) {
   background-color: #2D729B;
   color: white;

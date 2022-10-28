@@ -89,6 +89,7 @@
 }
 #body-section #our_services i {
   font-size: xxx-large;
+  color: #006E9D;
 }
 #body-section #contact_us,
 #body-section #Steps_of_work,
@@ -119,7 +120,7 @@
   color: #000;
 }
 #body-section .sow-bt .nav-tabs .nav-link {
-  color: #000;
+  color: #fff;
   border-radius: 0px;
 }
 #body-section .accordion-button:not(.collapsed) {

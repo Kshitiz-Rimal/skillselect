@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
   <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="./index.html">
-      <img src="./img/Logo.png" alt="" id="colorswitch">
+      <img src="./img/Logo.png" alt="" id="colorswitch" >
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -10,7 +10,28 @@ body {
   overflow-x: hidden;
 }
 
+header {
+
+  & :has(.show) {
+    background-color: #006E9D;
+
+    .nav-link {
+      color: aliceblue !important;
+    }
+
+    .navbar-brand {
+      #colorswitch {
+        display: block;
+        background: url(../../img/logo_whiteBG.png) no-repeat !important;
+      }
+    }
+  }
+}
+
 .navbar {
+
+
+
   .nav-link {
     padding-right: 20px !important;
     color: #000;

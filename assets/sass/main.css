@@ -131,7 +131,7 @@
 #body-section #Steps_of_work .tab-pane .img-content .content-section {
   color: #000;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   #body-section #above-footer-form {
     /* For desktop: */
   }
@@ -184,6 +184,17 @@
 
 body {
   overflow-x: hidden;
+}
+
+header :has(.show) {
+  background-color: #006E9D;
+}
+header :has(.show) .nav-link {
+  color: aliceblue !important;
+}
+header :has(.show) .navbar-brand #colorswitch {
+  display: block;
+  background: url(../../img/logo_whiteBG.png) no-repeat !important;
 }
 
 .navbar .nav-link {

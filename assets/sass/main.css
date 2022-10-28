@@ -131,11 +131,22 @@
 #body-section #Steps_of_work .tab-pane .img-content .content-section {
   color: #000;
 }
+@media only screen and (min-width: 768px) {
+  #body-section #above-footer-form {
+    /* For desktop: */
+  }
+  #body-section #above-footer-form .col-lg-3Half {
+    width: 27%;
+  }
+  #body-section #above-footer-form .col-lg-42Half {
+    width: 36.5%;
+  }
+}
 #body-section #above-footer-form .card {
   background-color: #2D729B;
   border: none;
   height: auto;
-  width: 27%;
+  width: 95%;
   border-radius: 0px;
 }
 #body-section #above-footer-form .card .footer-form label {

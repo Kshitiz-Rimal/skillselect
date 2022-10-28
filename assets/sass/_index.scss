@@ -180,13 +180,29 @@
     }
 
     #above-footer-form {
+
+
+        @media only screen and (min-width: 768px) {
+
+            /* For desktop: */
+            .col-lg-3Half {
+                width: 27%;
+            }
+
+            .col-lg-42Half {
+                width: 36.5%;
+            }
+
+        }
+
         .card {
             // position: absolute;
             background-color: #2D729B;
             border: none;
             height: auto;
-            width: 27%;
+            width: 95%;
             border-radius: 0px;
+            // padding: 12px;
 
             .footer-form {
                 label {
@@ -197,6 +213,7 @@
                     display: flex;
                     justify-content: center;
                     padding-top: 10px;
+
                 }
 
                 form {

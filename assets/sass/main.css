@@ -205,7 +205,7 @@ header :has(.show) .nav-link {
 }
 header :has(.show) .navbar-brand #colorswitch {
   display: block;
-  background: url(../../img/logo_whiteBG.png) no-repeat !important;
+  content: url("../../img/logo_whiteBG.png");
 }
 
 .navbar .nav-link {
@@ -390,4 +390,25 @@ footer p {
 
 #navbar {
   transition: 0.3s ease-in-out;
+}
+
+.for-others {
+  background-color: #006E9D;
+}
+.for-others .nav-link {
+  color: white;
+}
+.for-others #colorswitch {
+  content: url("../../img/logo_whiteBG.png");
+}
+.for-others ul.navbar-nav .active {
+  font-weight: bold;
+  color: white;
+}
+
+.body-section .row .card {
+  justify-content: center;
+  position: relative;
+  width: 30%;
+  margin-right: 2em;
 }/*# sourceMappingURL=main.css.map */

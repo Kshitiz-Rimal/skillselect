@@ -22,7 +22,7 @@ header {
     .navbar-brand {
       #colorswitch {
         display: block;
-        background: url(../../img/logo_whiteBG.png) no-repeat !important;
+        content: url('../../img/logo_whiteBG.png');
       }
     }
   }
@@ -60,21 +60,6 @@ section {
   transition: 0.3s ease-in-out;
 }
 
-// .for-others {
-//   background-color: #a1deff !important;
-// }
 
-// .dropdown:hover .dropdown-menu {
-//   display: block;
-//   margin-top: 0;
-// }
 
-// .row {
-//   .card {
-//     justify-content: center;
-//     position: relative;
-//     width: 30%;
-//     margin-right: 2em;
-
-//   }
-// }
+@import "./for-others";

@@ -1,0 +1,30 @@
+.for-others {
+    background-color: #006E9D;
+
+    .nav-link {
+        color: white;
+    }
+
+    #colorswitch {
+        // display: none;
+        content: url('../../img/logo_whiteBG.png');
+    }
+
+    ul.navbar-nav .active {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+
+.body-section {
+    .row {
+        .card {
+            justify-content: center;
+            position: relative;
+            width: 30%;
+            margin-right: 2em;
+
+        }
+    }
+}

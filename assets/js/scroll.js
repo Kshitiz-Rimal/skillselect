@@ -22,3 +22,20 @@ function changeColorto() {
     x[i].style.color = "#000";
   }
 }
+
+// whatsapp chatra
+const myTimeout = setTimeout(show, 5000);
+function show() {
+  document.getElementById("whatsappShow").style.cssText = `
+  visibility:visible;
+  opacity: 1;
+  transition:opacity 600ms, visibility 600ms;
+`;
+}
+function closeWhatsapp() {
+  document.getElementById("whatsappShow").style.cssText = `
+  visibility:hidden;
+  opacity: 0;
+  transition:opacity 600ms, visibility 600ms;
+`;
+}

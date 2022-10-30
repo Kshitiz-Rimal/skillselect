@@ -1,6 +1,58 @@
 class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
+
+    <section id="floating-whatsapp">
+    <div class="container-fluid">
+        <button
+          type="button"
+          onclick="show()"
+          id="btnID"
+          class="back-to-whatsapp"
+        >
+          <i class="bi-whatsapp"></i>
+        </button>
+      <div class="row">
+        <div class="col-10 col-md-4 col-lg-3 whatsapp-card" id="whatsappShow">
+          <div class="card">
+            <div class="card-header">
+              <div class="chat-icon">
+                <i class="bi-chat-dots"></i>
+              </div>
+              <div class="chat-person">
+                <h5>Dixita Sharma</h5>
+                <p>Text Us in Whatsapp</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                onclick="closeWhatsapp()"
+              ></button>
+            </div>
+            <div class="card-body">
+              <p class="text-box">
+                <span>Dixita Sharma</span><br />
+                Hi, there!<br />
+                How can I help you?
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://api.whatsapp.com/send?phone=61480005454&text=Hello,%20Can%20you%20please%20provide%20me%20more%20information?"
+                target="_blank"
+                ><button class="btn-all">
+                  <i class="bi-whatsapp me-2"></i>Start Chat
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
       <section id="above_footer">
 
       
@@ -59,38 +111,3 @@ class MyFooter extends HTMLElement {
   }
 }
 customElements.define("my-footer", MyFooter);
-
-// function scrollFunction() {
-//   if (
-//     document.body.scrollTop > 300 ||
-//     document.documentElement.scrollTop > 300
-//   ) {
-//     document.getElementById("goToTop").style.visibility = "visible";
-//     document.getElementById("goToTop").style.opacity = "1";
-//   } else {
-//     document.getElementById("goToTop").style.visibility = "hidden";
-//     document.getElementById("goToTop").style.opacity = "0";
-//   }
-// }
-// function topFunction() {
-//   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
-// }
-
-{
-  /* <div class="col-lg-4">
-            //   <div class="footer-form">
-            //     <label>Leave Us a Message</label><br />
-
-            //     <form>
-            //       <input type="text" name="name" class="form-control" placeholder="Your Name" required="" />
-            //       <br />
-            //       <input type="email" class="form-control" name="email" placeholder="Your Email" required="" />
-            //       <br />
-            //       <textarea type="message" class="form-control" name="message" rows="3" placeholder="Message"
-            //         required=""></textarea>
-            //       <br />
-            //       <button class="btn btn-primary  mb-3" type="submit">Send Message</button>
-            //     </form>
-            //   </div>
-            // </div> */
-}

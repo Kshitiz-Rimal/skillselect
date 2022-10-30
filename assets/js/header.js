@@ -17,7 +17,7 @@ class MyHeader extends HTMLElement {
             <a class="nav-link items active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link items dropdown-toggle" href="./our-services.html" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link items dropdown-toggle" href="./our-services.html" role="button" 
               aria-expanded="false">
               Services
             </a>

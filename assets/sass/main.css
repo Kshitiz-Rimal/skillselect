@@ -197,6 +197,17 @@ body {
   overflow-x: hidden;
 }
 
+@media all and (min-width: 992px) {
+  header .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  header .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  header .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
 header :has(.show) {
   background-color: #006E9D;
 }
@@ -404,11 +415,4 @@ footer p {
 .for-others ul.navbar-nav .active {
   font-weight: bold;
   color: white;
-}
-
-.body-section .row .card {
-  justify-content: center;
-  position: relative;
-  width: 30%;
-  margin-right: 2em;
 }/*# sourceMappingURL=main.css.map */

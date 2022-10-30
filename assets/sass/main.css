@@ -58,11 +58,17 @@
 }
 
 #body-section #about_us h2,
-#body-section #why_us h2 {
+#body-section #why_us h2,
+#body-section #client_review h2,
+#body-section #our_services h2,
+#body-section #faq h2 {
   margin-bottom: 25px;
 }
 #body-section #about_us p,
-#body-section #why_us p {
+#body-section #why_us p,
+#body-section #client_review p,
+#body-section #our_services p,
+#body-section #faq p {
   font-size: larger;
   padding: 0px;
 }
@@ -122,10 +128,6 @@
 #body-section .sow-bt .nav-tabs .nav-link {
   color: #fff;
   border-radius: 0px;
-}
-#body-section .accordion-button:not(.collapsed) {
-  background-color: #2D729B;
-  color: white;
 }
 #body-section #Steps_of_work {
   overflow-x: hidden;

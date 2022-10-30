@@ -24,7 +24,7 @@ function changeColorto() {
 }
 
 // whatsapp chatra
-const myTimeout = setTimeout(show, 5000);
+const myTimeout = setTimeout(show, 20000);
 function show() {
   document.getElementById("whatsappShow").style.cssText = `
   visibility:visible;

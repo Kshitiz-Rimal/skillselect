@@ -2,7 +2,7 @@ class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 
-    <section id="floating-whatsapp">
+    <section id="floating-whatsapp" class="py-0">
     <div class="container-fluid">
         <button
           type="button"

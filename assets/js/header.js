@@ -78,13 +78,21 @@ $(document).ready(function () {
 
   var path = window.location.pathname;
 
-  if (path == "/index.html") {
+  if (path == "/index.html" || path == "/skillselect/index.html")
     $("#home-page").addClass("active");
-  } else if (path == "/our-services.html")
+  else if (
+    path == "/our-services.html" ||
+    path == "/skillselect/our-services.html"
+  )
     $("#service-page").addClass("active");
-  else if (path == "/anzsco.html") $("#anzsco-page").addClass("active");
-  else if (path == "/blog.html") $("#blog-page").addClass("active");
-  else if (path == "/cdrsamples.html") $("#sample-page").addClass("active");
-  else if (path == "/pricing.html") $("#pricing-page").addClass("active");
-  else if (path == "/contactus.html") $("#contact-page").addClass("active");
+  else if (path == "/anzsco.html" || path == "/skillselect/anzsco.html")
+    $("#anzsco-page").addClass("active");
+  else if (path == "/blog.html" || path == "/skillselect/blog.html")
+    $("#blog-page").addClass("active");
+  else if (path == "/cdrsamples.html" || path == "/skillselect/cdrsamples.html")
+    $("#sample-page").addClass("active");
+  else if (path == "/pricing.html" || path == "/skillselect/pricing.html")
+    $("#pricing-page").addClass("active");
+  else if (path == "/contactus.html" || path == "/skillselect/contactus.html")
+    $("#contact-page").addClass("active");
 });

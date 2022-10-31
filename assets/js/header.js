@@ -14,10 +14,10 @@ class MyHeader extends HTMLElement {
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link items active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link items active " aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link items dropdown-toggle" href="./our-services.html" role="button" 
+            <a class="nav-link items dropdown-toggle " href="./our-services.html" role="button" 
               aria-expanded="false">
               Services
             </a>
@@ -71,3 +71,15 @@ customElements.define("my-header", MyHeader);
   s.src = "https://call.chatra.io/chatra.js";
   if (d.head) d.head.appendChild(s);
 })(document, window, "Chatra");
+
+//for active navbar element
+
+var header = document.getElementById("navbar-nav");
+var navs = header.getElementsByClassName("nav-link");
+for (var i = 0; i < navs.length; i++) {
+  navs[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}

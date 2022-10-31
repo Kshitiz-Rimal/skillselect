@@ -1,16 +1,29 @@
 .for-others {
-    background-color: #006E9D;
+    .navbar {
+        background-color: #006E9D;
 
-    .nav-link {
-        color: white;
-    }
+        .nav-link {
+            color: white;
+        }
 
-    #colorswitch {
-        content: url('../../img/logo_whiteBG.png');
-    }
+        #colorswitch {
+            content: url('../../img/logo_whiteBG.png');
+        }
 
-    ul.navbar-nav .active {
-        font-weight: bold;
-        color: white;
+        ul.navbar-nav .active {
+            font-weight: bold;
+            color: white;
+        }
+
+        .nav-item a:hover {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+
+
+        .active {
+            font-weight: bold;
+        }
     }
 }

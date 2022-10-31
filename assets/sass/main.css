@@ -204,6 +204,9 @@ body {
   header .navbar .nav-item:hover .dropdown-menu {
     display: block;
   }
+  header .navbar .nav-item:hover .dropdown-menu a {
+    color: #000;
+  }
   header .navbar .nav-item .dropdown-menu {
     margin-top: 0;
   }
@@ -233,6 +236,11 @@ header :has(.show) .navbar-brand #colorswitch {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+.navbar .nav-item a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 
 section {
@@ -403,16 +411,24 @@ footer p {
   transition: 0.3s ease-in-out;
 }
 
-.for-others {
+.for-others .navbar {
   background-color: #006E9D;
 }
-.for-others .nav-link {
+.for-others .navbar .nav-link {
   color: white;
 }
-.for-others #colorswitch {
+.for-others .navbar #colorswitch {
   content: url("../../img/logo_whiteBG.png");
 }
-.for-others ul.navbar-nav .active {
+.for-others .navbar ul.navbar-nav .active {
   font-weight: bold;
   color: white;
+}
+.for-others .navbar .nav-item a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.for-others .navbar .active {
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

@@ -242,6 +242,9 @@ header :has(.show) .navbar-brand #colorswitch {
   color: black;
   font-weight: 500;
 }
+.navbar .nav-item a:active {
+  font-weight: bold;
+}
 
 section {
   padding-top: 3rem;
@@ -429,6 +432,6 @@ footer p {
   color: white;
   font-weight: 500;
 }
-.for-others .navbar .active {
+.for-others .navbar .nav-item a:active {
   font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

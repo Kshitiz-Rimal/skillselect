@@ -12,13 +12,13 @@ class MyHeader extends HTMLElement {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" onclick='switchClassActive(event)'>
           <li class="nav-item">
-            <a class="nav-link items active " aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link items active" id="home-page" aria-current="page" href="./index.html" >Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link items dropdown-toggle " href="./our-services.html" role="button" 
-              aria-expanded="false">
+            <a class="nav-link items dropdown-toggle " id="service-page" href="./our-services.html" role="button" 
+              aria-expanded="false" >
               Services
             </a>
             <ul class="dropdown-menu">
@@ -31,19 +31,19 @@ class MyHeader extends HTMLElement {
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link items"  href="./anzsco.html">ANZSCO codes</a>
+            <a class="nav-link items"  id="anzsco-page" href="./anzsco.html" >ANZSCO codes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link items" href="./blog.html">Blog</a>
+            <a class="nav-link items" id="blog-page" href="./blog.html" >Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link items" href="./cdrsamples.html">CDR samples</a>
+            <a class="nav-link items" id="sample-page" href="./cdrsamples.html" >CDR samples</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link items" href="./pricing.html">Pricing</a>
+            <a class="nav-link items" id="pricing-page" href="./pricing.html" >Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link items" id="contact" href="./contactus.html">Contact Us</a>
+            <a class="nav-link items" id="contact-page" href="./contactus.html" >Contact Us</a>
           </li>
           
           <button class="btn btn-primary" onclick="Chatra('openChat', true)">Chat Us</button>
@@ -53,6 +53,7 @@ class MyHeader extends HTMLElement {
     </div>
   </nav>
   </header>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
       `;
   }
@@ -72,14 +73,18 @@ customElements.define("my-header", MyHeader);
   if (d.head) d.head.appendChild(s);
 })(document, window, "Chatra");
 
-//for active navbar element
+$(document).ready(function () {
+  document.querySelector(".active").classList.remove("active");
 
-var header = document.getElementById("navbar-nav");
-var navs = header.getElementsByClassName("nav-link");
-for (var i = 0; i < navs.length; i++) {
-  navs[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+  var path = window.location.pathname;
+
+  if (path == "/index.html") {
+    $("#home-page").addClass("active");
+  } else if (path == "/our-services.html")
+    $("#service-page").addClass("active");
+  else if (path == "/anzsco.html") $("#anzsco-page").addClass("active");
+  else if (path == "/blog.html") $("#blog-page").addClass("active");
+  else if (path == "/cdrsamples.html") $("#sample-page").addClass("active");
+  else if (path == "/pricing.html") $("#pricing-page").addClass("active");
+  else if (path == "/contactus.html") $("#contact-page").addClass("active");
+});

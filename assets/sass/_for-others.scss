@@ -15,15 +15,20 @@
             color: white;
         }
 
-        .nav-item a:hover {
-            text-decoration: none;
-            color: white;
-            font-weight: 500;
+        .nav-item a {
+
+            &:hover {
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+            }
+
+            &:active {
+                font-weight: bold;
+            }
         }
 
 
-        .active {
-            font-weight: bold;
-        }
+
     }
 }

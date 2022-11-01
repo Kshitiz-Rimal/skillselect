@@ -87,7 +87,7 @@ $(document).ready(function () {
     $("#service-page").addClass("active");
   else if (path == "/anzsco.html" || path == "/skillselect/anzsco.html") {
     $("#anzsco-page").addClass("active");
-    console.log(path);
+    // console.log(path);
   } else if (path == "/blog.html" || path == "/skillselect/blog.html")
     $("#blog-page").addClass("active");
   else if (path == "/cdrsamples.html" || path == "/skillselect/cdrsamples.html")

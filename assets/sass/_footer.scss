@@ -36,6 +36,7 @@
         border-radius: 10px;
         border: none;
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+        width: 95%;
     }
 
     .card-header {
@@ -62,7 +63,7 @@
             margin-right: 0.8rem;
 
             i {
-                font-size: 35px;
+                font-size: 30px;
                 color: #fff;
             }
         }
@@ -73,11 +74,11 @@
             p {
                 margin: 0;
                 color: #fff;
-                font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+                font-size: clamp(0.9rem, 1rem, 1.3rem);
             }
 
             h5 {
-                font-size: clamp(1.1rem, 2vw, 1.8rem);
+                font-size: clamp(1.1rem, 1.7rem, 1.8rem);
                 color: #fff;
             }
         }

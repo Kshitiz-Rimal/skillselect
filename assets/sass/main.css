@@ -286,6 +286,7 @@ section {
   border-radius: 10px;
   border: none;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  width: 95%;
 }
 .whatsapp-card .card-header {
   border-start-start-radius: 10px;
@@ -311,7 +312,7 @@ section {
   margin-right: 0.8rem;
 }
 .whatsapp-card .card-header .chat-icon i {
-  font-size: 35px;
+  font-size: 30px;
   color: #fff;
 }
 .whatsapp-card .card-header .chat-person {
@@ -320,10 +321,10 @@ section {
 .whatsapp-card .card-header .chat-person p {
   margin: 0;
   color: #fff;
-  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+  font-size: 1rem;
 }
 .whatsapp-card .card-header .chat-person h5 {
-  font-size: clamp(1.1rem, 2vw, 1.8rem);
+  font-size: 1.7rem;
   color: #fff;
 }
 .whatsapp-card .card-body {

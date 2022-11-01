@@ -13,7 +13,7 @@ class MyFooter extends HTMLElement {
           <i class="bi-whatsapp"></i>
         </button>
       <div class="row">
-        <div class="col-10 col-md-4 col-lg-3 whatsapp-card" id="whatsappShow">
+        <div class="col-10 col-md-4 col-lg-4 whatsapp-card" id="whatsappShow">
           <div class="card">
             <div class="card-header">
               <div class="chat-icon">

@@ -12,7 +12,7 @@ class MyHeader extends HTMLElement {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav" onclick='switchClassActive(event)'>
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link items active" id="home-page" aria-current="page" href="./index.html" >Home</a>
           </li>
@@ -78,7 +78,9 @@ $(document).ready(function () {
 
   var path = window.location.pathname;
 
-  if (path == "/index.html" || path == "/skillselect/index.html")
+  if (path == "/" || path == "/skillselect/")
+    $("#home-page").addClass("active");
+  else if (path == "/index.html" || path == "/skillselect/index.html")
     $("#home-page").addClass("active");
   else if (
     path == "/our-services.html" ||

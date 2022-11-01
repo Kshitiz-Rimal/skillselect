@@ -1,6 +1,6 @@
 .for-others {
     .navbar {
-        background-color: #006E9D;
+        background-color: rgba(0, 110, 157, 0.5);
 
         .nav-link {
             color: white;
@@ -27,8 +27,30 @@
                 font-weight: bold;
             }
         }
+    }
+}
 
+.body-section {
+    .hero-section {
+        height: 60vh;
+        background-color: #006E9D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../../img/services-backgrond.png');
+        // content: fit;
 
+        .hero-text {
+            color: white;
 
+            h1 {
+                font-weight: bolder;
+                padding-bottom: 10px;
+            }
+
+            h3 {
+                font-weight: normal;
+            }
+        }
     }
 }

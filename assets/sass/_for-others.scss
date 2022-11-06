@@ -1,56 +1,57 @@
 .for-others {
-    .navbar {
-        background-color: rgba(0, 110, 157);
+  .navbar {
+    background-color: rgba(0, 110, 157);
 
-        .nav-link {
-            color: white;
-        }
-
-        #colorswitch {
-            content: url('../../img/logo_whiteBG.png');
-        }
-
-        ul.navbar-nav .active {
-            font-weight: bold;
-            color: white;
-        }
-
-        .nav-item a {
-
-            &:hover {
-                text-decoration: none;
-                color: white;
-                font-weight: 500;
-            }
-
-            &:active {
-                font-weight: bold;
-            }
-        }
+    .nav-link {
+      color: white;
     }
+
+    #colorswitch {
+      content: url("../../img/logo_whiteBG.png");
+    }
+
+    ul.navbar-nav .active {
+      font-weight: bold;
+      color: white;
+    }
+
+    .nav-item a {
+      &:hover {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+      }
+
+      &:active {
+        font-weight: bold;
+      }
+    }
+  }
 }
 
-.body-section {
-    .hero-section {
-        height: 55vh;
-        background-color: #006E9D;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url('../../img/services-backgrond.png');
-        // content: fit;
+#service-section {
+  .hero-section {
+    min-height: 55vh;
+    background-color: #006e9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../img/services-backgrond.png");
+    // content: fit;
 
-        .hero-text {
-            color: white;
+    .hero-text {
+      color: white;
 
-            h1 {
-                font-weight: bolder;
-                padding-bottom: 10px;
-            }
+      h1 {
+        font-weight: bolder;
+        padding-bottom: 10px;
+      }
 
-            h3 {
-                font-weight: normal;
-            }
-        }
+      h3 {
+        font-weight: normal;
+      }
     }
+  }
+  .service-list {
+  }
 }

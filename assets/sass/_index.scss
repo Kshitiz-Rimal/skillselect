@@ -1,260 +1,266 @@
+
+
 #hero {
-    display: flex;
+
+
+  padding-top: 0;
+  min-height: 100vh;
+  max-height: 100vh;
+  background: linear-gradient(to bottom,
+      #eeeff5 0%,
+      #eeeff5 80%,
+      #2d729b 80%,
+      #2d729b 100%);
+
+
+  .container>.row1 {
+    padding-top: 3rem;
+    min-height: 55vh;
+    max-height: 55vh;
+    padding-top: 6rem;
     align-items: center;
-    background: url("../../img/hero-bg-image-raw.png") 50% 70%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height: 100vh;
-    min-height: 100vh;
-    color: #006E9D;
+  }
+
+  .container>.row2 {
+    min-height: 45vh;
+    max-height: 45vh;
+    align-items: end;
 
 
-    h1 {
-        font-size: 4 rem;
-    }
 
-    p {
-        font-size: 1.5rem;
-        color: black;
-    }
+    .card {
+      background-color: #fff;
+      border: none;
+      border-radius: 0px;
 
-    .container-fluid {
-        .form-row {
-            .card {
-                position: absolute;
-                background-color: #fff;
-                bottom: 0;
-                border-bottom: none;
-                height: auto;
-                width: 27%;
-                border-radius: 0px;
+      label {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+        // display: flex;
+        // justify-content: center;
+        padding-top: 10px;
+      }
 
-                .hero-form {
-                    label {
-                        font-size: 20px;
-                        font-weight: bold;
-                        margin-bottom: 20px;
-                        display: flex;
-                        justify-content: center;
-                        padding-top: 10px;
-                    }
+      form {
+        text-align: center;
 
-                    form {
-
-                        input,
-                        textarea {
-                            color: #000;
-                            border-radius: 0px;
-                            margin: 0 7% 10px 7%;
-                            width: 86%;
-
-                        }
-
-                        input::placeholder,
-                        textarea::placeholder {
-                            font-size: 15px;
-                        }
-
-                        input[type="text"] {
-                            font-size: 15px;
-                        }
-
-                        button {
-                            border-radius: 0px;
-                        }
-                    }
-                }
-            }
+        input,
+        textarea {
+          color: #000;
+          border-radius: 0px;
+          margin: 0 7% 10px 7%;
+          width: 86%;
         }
+
+        input::placeholder,
+        textarea::placeholder {
+          font-size: 15px;
+        }
+
+        input[type="text"] {
+          font-size: 15px;
+        }
+
+        button {
+          border-radius: 0px;
+        }
+      }
     }
+
+  }
+
+  @media screen and (max-width: 991px) {
+    min-height: auto;
+    max-height: auto;
+    background: linear-gradient(to bottom,
+        #eeeff5 0%,
+        #eeeff5 100%);
+
+    .container>.row1,
+    .container>.row2 {
+      min-height: auto;
+      max-height: auto;
+    }
+  }
 }
+
+
 
 
 #body-section {
 
-    #about_us,
-    #why_us,
-    #client_review,
-    #our_services,
-    #faq {
-        h2 {
-            margin-bottom: 25px;
-        }
-
-        p {
-            font-size: larger;
-            padding: 0px;
-        }
+  #about_us,
+  #why_us,
+  #client_review,
+  #our_services,
+  #faq {
+    h2 {
+      margin-bottom: 25px;
     }
 
+    p {
+      font-size: larger;
+      padding: 0px;
+    }
+  }
+
+  .row {
+    h2 {
+      text-align: center;
+    }
+  }
+
+  #client_review {
     .row {
-        h2 {
-            text-align: center;
-        }
+      img {
+        border-radius: 5rem;
+      }
 
-        p {
-            text-align: justify;
-        }
-    }
-
-    #client_review {
-        .row {
-            img {
-                border-radius: 5rem;
-            }
-
-            .card {
-                border-radius: 0px;
-            }
-        }
-
-        i {
-            color: #ffa534;
-        }
-    }
-
-    #our_services {
-        position: relative;
-
-        h4 {
-            padding-bottom: 1rem;
-        }
-
-        i {
-            font-size: xxx-large;
-            color: #006E9D;
-        }
-    }
-
-    #contact_us,
-    #Steps_of_work,
-    #prices {
-        color: white;
-
-        .container-fluid {
-            background-color: #2D729B !important
-        }
-    }
-
-    #contact_us,
-    #prices {
-        a {
-            border-radius: 0px;
-        }
-    }
-
-    #Steps_of_work .nav-tabs .nav-link.active {
-        color: #000;
-
-    }
-
-    #Steps_of_work .nav-tabs .nav-link {
-        color: white;
+      .card {
         border-radius: 0px;
+      }
     }
 
-    .sow-bt {
+    i {
+      color: #ffa534;
+    }
+  }
 
+  #our_services {
+    position: relative;
 
-        .nav-link {
-            background-color: #2D729B;
+    h4 {
+      padding-bottom: 1rem;
+    }
+
+    i {
+      font-size: xxx-large;
+      color: #006e9d;
+    }
+  }
+
+  #contact_us,
+  #Steps_of_work,
+  #prices {
+    color: white;
+
+    .container-fluid {
+      background-color: #2d729b !important;
+    }
+  }
+
+  #contact_us,
+  #prices {
+    a {
+      border-radius: 0px;
+    }
+  }
+
+  #Steps_of_work .nav-tabs .nav-link.active {
+    color: #000;
+  }
+
+  #Steps_of_work .nav-tabs .nav-link {
+    color: white;
+    border-radius: 0px;
+  }
+
+  .sow-bt {
+    .nav-link {
+      background-color: #2d729b;
+    }
+
+    .nav-tabs .nav-link.active {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .nav-tabs .nav-link {
+      color: #fff;
+      border-radius: 0px;
+    }
+  }
+
+  #Steps_of_work {
+    overflow-x: hidden;
+
+    h2 {
+      span {
+        font-weight: 700;
+      }
+    }
+
+    .tab-pane {
+      .img-content {
+        margin-right: calc(50% - 50vw);
+        background-color: #fff;
+
+        .img-section {
+          background-color: #2d729b;
         }
 
-        .nav-tabs .nav-link.active {
-            background-color: #fff;
+        .content-section {
+          color: #000;
+        }
+      }
+    }
+  }
+
+  #above-footer-form {
+    @media only screen and (min-width: 770px) {
+      .col-lg-3Half {
+        width: 27%;
+      }
+
+      .col-lg-42Half {
+        width: 36.5%;
+      }
+    }
+
+    .card {
+      background-color: #2d729b;
+      border: none;
+      height: auto;
+      width: 95%;
+      border-radius: 0px;
+
+      .footer-form {
+        label {
+          color: #fff;
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+          padding-top: 10px;
+        }
+
+        form {
+
+          input,
+          textarea {
             color: #000;
-
-        }
-
-        .nav-tabs .nav-link {
-            color: #fff;
             border-radius: 0px;
-        }
-    }
+            margin: 0 7% 10px 7%;
+            width: 86%;
+          }
 
+          input::placeholder,
+          textarea::placeholder {
+            font-size: 15px;
+          }
 
+          input[type="text"] {
+            font-size: 15px;
+          }
 
-    #Steps_of_work {
-        overflow-x: hidden;
-
-        h2 {
-            span {
-                font-weight: 700
-            }
-        }
-
-        .tab-pane {
-            .img-content {
-                margin-right: calc(50% - 50vw);
-                background-color: #fff;
-
-                .img-section {
-                    background-color: #2D729B;
-                }
-
-                .content-section {
-                    color: #000;
-                }
-            }
-        }
-    }
-
-    #above-footer-form {
-        @media only screen and (min-width: 770px) {
-            .col-lg-3Half {
-                width: 27%;
-            }
-
-            .col-lg-42Half {
-                width: 36.5%;
-            }
-        }
-
-        .card {
-            background-color: #2D729B;
-            border: none;
-            height: auto;
-            width: 95%;
+          button {
             border-radius: 0px;
-
-            .footer-form {
-                label {
-                    color: #fff;
-                    font-size: 20px;
-                    font-weight: bold;
-                    margin-bottom: 20px;
-                    display: flex;
-                    justify-content: center;
-                    padding-top: 10px;
-
-                }
-
-                form {
-
-                    input,
-                    textarea {
-                        color: #000;
-                        border-radius: 0px;
-                        margin: 0 7% 10px 7%;
-                        width: 86%;
-
-                    }
-
-                    input::placeholder,
-                    textarea::placeholder {
-                        font-size: 15px;
-                    }
-
-                    input[type="text"] {
-                        font-size: 15px;
-                    }
-
-                    button {
-                        border-radius: 0px;
-                    }
-                }
-            }
+          }
         }
-
+      }
     }
+  }
 }

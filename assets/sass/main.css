@@ -1,60 +1,71 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 #hero {
-  display: flex;
-  align-items: center;
-  background: url("../../img/hero-bg-image-raw.png") 50% 70%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-height: 100vh;
+  padding-top: 0;
   min-height: 100vh;
-  color: #006E9D;
+  max-height: 100vh;
+  background: linear-gradient(to bottom, #eeeff5 0%, #eeeff5 80%, #2d729b 80%, #2d729b 100%);
 }
-#hero h1 {
-  font-size: 4 rem;
+#hero .container > .row1 {
+  padding-top: 3rem;
+  min-height: 55vh;
+  max-height: 55vh;
+  padding-top: 6rem;
+  align-items: center;
 }
-#hero p {
-  font-size: 1.5rem;
-  color: black;
+#hero .container > .row2 {
+  min-height: 45vh;
+  max-height: 45vh;
+  align-items: end;
 }
-#hero .container-fluid .form-row .card {
-  position: absolute;
+#hero .container > .row2 .card {
   background-color: #fff;
-  bottom: 0;
-  border-bottom: none;
-  height: auto;
-  width: 27%;
+  border: none;
   border-radius: 0px;
 }
-#hero .container-fluid .form-row .card .hero-form label {
+#hero .container > .row2 .card label {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding-top: 10px;
 }
-#hero .container-fluid .form-row .card .hero-form form input,
-#hero .container-fluid .form-row .card .hero-form form textarea {
+#hero .container > .row2 .card form {
+  text-align: center;
+}
+#hero .container > .row2 .card form input,
+#hero .container > .row2 .card form textarea {
   color: #000;
   border-radius: 0px;
   margin: 0 7% 10px 7%;
   width: 86%;
 }
-#hero .container-fluid .form-row .card .hero-form form input::-moz-placeholder, #hero .container-fluid .form-row .card .hero-form form textarea::-moz-placeholder {
+#hero .container > .row2 .card form input::-moz-placeholder, #hero .container > .row2 .card form textarea::-moz-placeholder {
   font-size: 15px;
 }
-#hero .container-fluid .form-row .card .hero-form form input:-ms-input-placeholder, #hero .container-fluid .form-row .card .hero-form form textarea:-ms-input-placeholder {
+#hero .container > .row2 .card form input:-ms-input-placeholder, #hero .container > .row2 .card form textarea:-ms-input-placeholder {
   font-size: 15px;
 }
-#hero .container-fluid .form-row .card .hero-form form input::placeholder,
-#hero .container-fluid .form-row .card .hero-form form textarea::placeholder {
+#hero .container > .row2 .card form input::placeholder,
+#hero .container > .row2 .card form textarea::placeholder {
   font-size: 15px;
 }
-#hero .container-fluid .form-row .card .hero-form form input[type=text] {
+#hero .container > .row2 .card form input[type=text] {
   font-size: 15px;
 }
-#hero .container-fluid .form-row .card .hero-form form button {
+#hero .container > .row2 .card form button {
   border-radius: 0px;
+}
+@media screen and (max-width: 991px) {
+  #hero {
+    min-height: auto;
+    max-height: auto;
+    background: linear-gradient(to bottom, #eeeff5 0%, #eeeff5 100%);
+  }
+  #hero .container > .row1,
+#hero .container > .row2 {
+    min-height: auto;
+    max-height: auto;
+  }
 }
 
 #body-section #about_us h2,
@@ -75,9 +86,6 @@
 #body-section .row h2 {
   text-align: center;
 }
-#body-section .row p {
-  text-align: justify;
-}
 #body-section #client_review .row img {
   border-radius: 5rem;
 }
@@ -95,7 +103,7 @@
 }
 #body-section #our_services i {
   font-size: xxx-large;
-  color: #006E9D;
+  color: #006e9d;
 }
 #body-section #contact_us,
 #body-section #Steps_of_work,
@@ -105,7 +113,7 @@
 #body-section #contact_us .container-fluid,
 #body-section #Steps_of_work .container-fluid,
 #body-section #prices .container-fluid {
-  background-color: #2D729B !important;
+  background-color: #2d729b !important;
 }
 #body-section #contact_us a,
 #body-section #prices a {
@@ -119,7 +127,7 @@
   border-radius: 0px;
 }
 #body-section .sow-bt .nav-link {
-  background-color: #2D729B;
+  background-color: #2d729b;
 }
 #body-section .sow-bt .nav-tabs .nav-link.active {
   background-color: #fff;
@@ -140,7 +148,7 @@
   background-color: #fff;
 }
 #body-section #Steps_of_work .tab-pane .img-content .img-section {
-  background-color: #2D729B;
+  background-color: #2d729b;
 }
 #body-section #Steps_of_work .tab-pane .img-content .content-section {
   color: #000;
@@ -154,7 +162,7 @@
   }
 }
 #body-section #above-footer-form .card {
-  background-color: #2D729B;
+  background-color: #2d729b;
   border: none;
   height: auto;
   width: 95%;
@@ -193,8 +201,39 @@
   border-radius: 0px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   overflow-x: hidden;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 3vw, 5.6rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 2vw, 4rem);
+}
+
+h3 {
+  font-size: clamp(1.7rem, 2vw, 3rem);
+}
+
+h4 {
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+}
+
+h5,
+h6 {
+  font-size: clamp(1.3rem, 2vw, 2rem);
 }
 
 @media all and (min-width: 992px) {
@@ -212,7 +251,7 @@ body {
   }
 }
 header :has(.show) {
-  background-color: #006E9D;
+  background-color: #006e9d;
 }
 header :has(.show) .nav-link {
   color: aliceblue !important;
@@ -437,21 +476,21 @@ footer p {
   font-weight: bold;
 }
 
-.body-section .hero-section {
-  height: 55vh;
-  background-color: #006E9D;
+#service-section .hero-section {
+  min-height: 55vh;
+  background-color: #006e9d;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("../../img/services-backgrond.png");
 }
-.body-section .hero-section .hero-text {
+#service-section .hero-section .hero-text {
   color: white;
 }
-.body-section .hero-section .hero-text h1 {
+#service-section .hero-section .hero-text h1 {
   font-weight: bolder;
   padding-bottom: 10px;
 }
-.body-section .hero-section .hero-text h3 {
+#service-section .hero-section .hero-text h3 {
   font-weight: normal;
 }/*# sourceMappingURL=main.css.map */

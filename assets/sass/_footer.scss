@@ -1,140 +1,141 @@
-.back-to-whatsapp {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    left: 15px;
-    bottom: 20px;
-    z-index: 996;
-    background: #24c254;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+#floating-whatsapp {
+    margin: 0;
+    padding: 0;
 
-    i {
-        font-size: 34px;
-        color: #fff !important;
-        line-height: 0;
-    }
-
-    &:hover {
-        background: #5fcf80;
-        color: #fff;
-    }
-}
-
-.whatsapp-card {
-    visibility: hidden;
-    opacity: 0;
-    position: fixed;
-    left: 10px;
-    bottom: 80px;
-    z-index: 996;
-
-    .card {
-        border-radius: 10px;
-        border: none;
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
-        width: 95%;
-    }
-
-    .card-header {
-        border-start-start-radius: 10px;
-        border-start-end-radius: 10px;
-        background-color: #1a6f64;
-        border: none;
+    .back-to-whatsapp {
+        position: fixed;
         display: flex;
-        flex-shrink: 0;
         align-items: center;
-        justify-content: space-between;
-        padding: 1rem 1rem;
-
-        .chat-icon {
-            border: none;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50px;
-            padding: 0.5rem;
-            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
-            margin-right: 0.8rem;
-
-            i {
-                font-size: 30px;
-                color: #fff;
-            }
-        }
-
-        .chat-person {
-            margin-right: auto;
-
-            p {
-                margin: 0;
-                color: #fff;
-                font-size: clamp(0.9rem, 1rem, 1.3rem);
-            }
-
-            h5 {
-                font-size: clamp(1.1rem, 1.7rem, 1.8rem);
-                color: #fff;
-            }
-        }
-
-    }
-
-    .card-body {
-        background-image: url("../../img/whatsapp-bg.webp");
-
-        .text-box {
-            text-align: start;
-            width: 100%;
-            padding: 0.7rem 1rem;
-            margin: 0;
-            background-color: #fff;
-            font-size: 14px;
-            border-radius: 10px;
-
-            span {
-                color: #868686;
-                font-weight: 400;
-            }
-        }
-
-        a {
-            background-image: none;
-        }
-    }
-
-    .card-footer {
-        border-end-start-radius: 10px;
-        border-end-end-radius: 10px;
-        background-color: #fff;
+        justify-content: center;
         border: none;
+        left: 15px;
+        bottom: 20px;
+        z-index: 996;
+        background: #24c254;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
 
-        a {
-            width: 100%;
+        i {
+            font-size: 34px;
+            color: #fff;
+            line-height: 0;
         }
 
-        .btn-all {
-            text-decoration: none;
-            display: inline-block;
-            letter-spacing: 1px;
+        &:hover {
+            background: #5fcf80;
             color: #fff;
-            transition: 0.4s background-color;
-            border: none;
-            margin: 0.6em 0em;
-            background-color: #24c254;
-            padding: 8px 12px;
-            width: 100%;
-            font-size: 14px;
+        }
+    }
+
+    .whatsapp-card {
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        left: 10px;
+        bottom: 80px;
+        z-index: 996;
+
+        .card {
             border-radius: 10px;
+            border: none;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+
+            .card-header {
+                border-start-start-radius: 10px;
+                border-start-end-radius: 10px;
+                background-color: #1a6f64;
+                border: none;
+                display: flex;
+                flex-shrink: 0;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1rem 1rem;
+
+                .chat-icon {
+                    border: none;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    padding: 0.5rem;
+                    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+                    margin-right: 0.8rem;
+
+                    i {
+                        font-size: 35px;
+                        color: #fff;
+                    }
+                }
+
+                .chat-person {
+                    margin-right: auto;
+
+                    p {
+                        margin: 0;
+                        color: #fff;
+                        font-size: clamp(0.9rem, 1.5vw, 1.3rem) !important;
+                        text-align: left;
+                    }
+
+                    h5 {
+                        font-size: clamp(1.1rem, 2vw, 1.8rem) !important;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .card-body {
+                background-image: url("../../img/whatsapp-bg.webp");
+
+                .text-box {
+                    text-align: start;
+                    width: 100%;
+                    padding: 0.7rem 1rem;
+                    margin: 0;
+                    background-color: #fff;
+                    font-size: 14px;
+                    border-radius: 10px;
+
+                    @media (min-width: 992px) {
+                        width: 60%;
+                    }
+
+                    span {
+                        color: #868686;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .card-footer {
+                border-end-start-radius: 10px;
+                border-end-end-radius: 10px;
+                background-color: #fff;
+                border: none;
+
+                a {
+                    width: 100%;
+                }
+
+                .btn-all {
+                    border: none;
+                    margin: 0.6em 0em;
+                    border-radius: 1rem;
+                    padding: 0.7em 1.5em;
+                    background-color: #24c254;
+                    color: #ffffff;
+                    padding: 8px 12px;
+                    width: 100%;
+                    font-size: 14px;
+                    border-radius: 10px;
+                }
+            }
         }
     }
 }
-
 
 @media (min-width: 992px) {
     .whatsapp-card .card-body .text-box {

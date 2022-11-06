@@ -289,7 +289,11 @@ section {
   padding-top: 3rem;
 }
 
-.back-to-whatsapp {
+#floating-whatsapp {
+  margin: 0;
+  padding: 0;
+}
+#floating-whatsapp .back-to-whatsapp {
   position: fixed;
   display: flex;
   align-items: center;
@@ -303,17 +307,16 @@ section {
   height: 50px;
   border-radius: 50px;
 }
-.back-to-whatsapp i {
+#floating-whatsapp .back-to-whatsapp i {
   font-size: 34px;
-  color: #fff !important;
+  color: #fff;
   line-height: 0;
 }
-.back-to-whatsapp:hover {
+#floating-whatsapp .back-to-whatsapp:hover {
   background: #5fcf80;
   color: #fff;
 }
-
-.whatsapp-card {
+#floating-whatsapp .whatsapp-card {
   visibility: hidden;
   opacity: 0;
   position: fixed;
@@ -321,13 +324,12 @@ section {
   bottom: 80px;
   z-index: 996;
 }
-.whatsapp-card .card {
+#floating-whatsapp .whatsapp-card .card {
   border-radius: 10px;
   border: none;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
-  width: 95%;
 }
-.whatsapp-card .card-header {
+#floating-whatsapp .whatsapp-card .card .card-header {
   border-start-start-radius: 10px;
   border-start-end-radius: 10px;
   background-color: #1a6f64;
@@ -338,7 +340,7 @@ section {
   justify-content: space-between;
   padding: 1rem 1rem;
 }
-.whatsapp-card .card-header .chat-icon {
+#floating-whatsapp .whatsapp-card .card .card-header .chat-icon {
   border: none;
   width: 50px;
   height: 50px;
@@ -350,26 +352,27 @@ section {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
   margin-right: 0.8rem;
 }
-.whatsapp-card .card-header .chat-icon i {
-  font-size: 30px;
+#floating-whatsapp .whatsapp-card .card .card-header .chat-icon i {
+  font-size: 35px;
   color: #fff;
 }
-.whatsapp-card .card-header .chat-person {
+#floating-whatsapp .whatsapp-card .card .card-header .chat-person {
   margin-right: auto;
 }
-.whatsapp-card .card-header .chat-person p {
+#floating-whatsapp .whatsapp-card .card .card-header .chat-person p {
   margin: 0;
   color: #fff;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem) !important;
+  text-align: left;
 }
-.whatsapp-card .card-header .chat-person h5 {
-  font-size: 1.7rem;
+#floating-whatsapp .whatsapp-card .card .card-header .chat-person h5 {
+  font-size: clamp(1.1rem, 2vw, 1.8rem) !important;
   color: #fff;
 }
-.whatsapp-card .card-body {
+#floating-whatsapp .whatsapp-card .card .card-body {
   background-image: url("../../img/whatsapp-bg.webp");
 }
-.whatsapp-card .card-body .text-box {
+#floating-whatsapp .whatsapp-card .card .card-body .text-box {
   text-align: start;
   width: 100%;
   padding: 0.7rem 1rem;
@@ -378,31 +381,31 @@ section {
   font-size: 14px;
   border-radius: 10px;
 }
-.whatsapp-card .card-body .text-box span {
+@media (min-width: 992px) {
+  #floating-whatsapp .whatsapp-card .card .card-body .text-box {
+    width: 60%;
+  }
+}
+#floating-whatsapp .whatsapp-card .card .card-body .text-box span {
   color: #868686;
   font-weight: 400;
 }
-.whatsapp-card .card-body a {
-  background-image: none;
-}
-.whatsapp-card .card-footer {
+#floating-whatsapp .whatsapp-card .card .card-footer {
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
   background-color: #fff;
   border: none;
 }
-.whatsapp-card .card-footer a {
+#floating-whatsapp .whatsapp-card .card .card-footer a {
   width: 100%;
 }
-.whatsapp-card .card-footer .btn-all {
-  text-decoration: none;
-  display: inline-block;
-  letter-spacing: 1px;
-  color: #fff;
-  transition: 0.4s background-color;
+#floating-whatsapp .whatsapp-card .card .card-footer .btn-all {
   border: none;
   margin: 0.6em 0em;
+  border-radius: 1rem;
+  padding: 0.7em 1.5em;
   background-color: #24c254;
+  color: #ffffff;
   padding: 8px 12px;
   width: 100%;
   font-size: 14px;

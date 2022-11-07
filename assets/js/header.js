@@ -22,12 +22,12 @@ class MyHeader extends HTMLElement {
               Services
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">CDR Report Writing</a></li>
-              <li><a class="dropdown-item" href="#">Career Episode Writing</a></li>
-              <li><a class="dropdown-item" href="#">Summary Statement</a></li>
-              <li><a class="dropdown-item" href="#">ACS RPL Report Writing</a></li>
-              <li><a class="dropdown-item" href="#">KAO2 Knowledge assessment</a></li>
-              <li><a class="dropdown-item" href="#">CDR Report Review Services</a></li>
+              <li><a class="dropdown-item" href="./cdrreportwriting.html">CDR Report Writing</a></li>
+              <li><a class="dropdown-item" href="./careerepwriting.html">Career Episode Writing</a></li>
+              <li><a class="dropdown-item" href="./summarystatement.html">Summary Statement</a></li>
+              <li><a class="dropdown-item" href="./acsrplreportwriting.html">ACS RPL Report Writing</a></li>
+              <li><a class="dropdown-item" href="./ka02assessment.html">KAO2 Knowledge assessment</a></li>
+              <li><a class="dropdown-item" href="./cdrreportreview.html">CDR Report Review Services</a></li>
             </ul>
           </li>
           <li class="nav-item">

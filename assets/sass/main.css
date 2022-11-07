@@ -59,12 +59,16 @@
   #hero {
     min-height: auto;
     max-height: auto;
-    background: linear-gradient(to bottom, #eeeff5 0%, #eeeff5 100%);
   }
   #hero .container > .row1,
 #hero .container > .row2 {
     min-height: auto;
     max-height: auto;
+  }
+}
+@media screen and (max-width: 575px) {
+  #hero {
+    background: linear-gradient(to bottom, #eeeff5 0%, #eeeff5 100%);
   }
 }
 

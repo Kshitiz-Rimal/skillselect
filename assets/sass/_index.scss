@@ -1,5 +1,3 @@
-
-
 #hero {
 
 
@@ -74,15 +72,18 @@
   @media screen and (max-width: 991px) {
     min-height: auto;
     max-height: auto;
-    background: linear-gradient(to bottom,
-        #eeeff5 0%,
-        #eeeff5 100%);
 
     .container>.row1,
     .container>.row2 {
       min-height: auto;
       max-height: auto;
     }
+  }
+
+  @media screen and (max-width: 575px) {
+    background: linear-gradient(to bottom,
+        #eeeff5 0%,
+        #eeeff5 100%);
   }
 }
 

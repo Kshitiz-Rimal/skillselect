@@ -67,7 +67,7 @@ class MyFooter extends HTMLElement {
                 <a href="./summarystatement.html" class="bi-chevron-right">Summary Statement</a><br /><br />
                 <a href="./acsrplreportwriting.html" class="bi-chevron-right">ACS RPL Report Writing</a><br /><br />
                 <a href="./ka02assessment.html" class="bi-chevron-right">KAO2 Knowledge assessment</a><br /><br />
-                <a href="./cdrreportreview.html" class="bi-chevron-right">CDR Report Review Services</a><br /><br />
+                <a href="./cdrreportreview.html" class="bi-chevron-right">CDR Review Services</a><br /><br />
               </div>
             </div>
           

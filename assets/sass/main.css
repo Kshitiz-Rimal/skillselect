@@ -250,53 +250,6 @@ section {
 #body-section #Steps_of_work .tab-pane .img-content .content-section {
   color: #000;
 }
-@media only screen and (min-width: 770px) {
-  #body-section #above-footer-form .col-lg-3Half {
-    width: 27%;
-  }
-  #body-section #above-footer-form .col-lg-42Half {
-    width: 36.5%;
-  }
-}
-#body-section #above-footer-form .card {
-  background-color: #2d729b;
-  border: none;
-  height: auto;
-  width: 95%;
-  border-radius: 0px;
-}
-#body-section #above-footer-form .card .footer-form label {
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
-#body-section #above-footer-form .card .footer-form form input,
-#body-section #above-footer-form .card .footer-form form textarea {
-  color: #000;
-  border-radius: 0px;
-  margin: 0 7% 10px 7%;
-  width: 86%;
-}
-#body-section #above-footer-form .card .footer-form form input::-moz-placeholder, #body-section #above-footer-form .card .footer-form form textarea::-moz-placeholder {
-  font-size: 15px;
-}
-#body-section #above-footer-form .card .footer-form form input:-ms-input-placeholder, #body-section #above-footer-form .card .footer-form form textarea:-ms-input-placeholder {
-  font-size: 15px;
-}
-#body-section #above-footer-form .card .footer-form form input::placeholder,
-#body-section #above-footer-form .card .footer-form form textarea::placeholder {
-  font-size: 15px;
-}
-#body-section #above-footer-form .card .footer-form form input[type=text] {
-  font-size: 15px;
-}
-#body-section #above-footer-form .card .footer-form form button {
-  border-radius: 0px;
-}
 
 #floating-whatsapp {
   margin: 0;
@@ -505,4 +458,52 @@ footer p {
 }
 #service-section .hero-section .hero-text h3 {
   font-weight: normal;
+}
+
+@media only screen and (min-width: 770px) {
+  #above-footer-form .col-lg-3Half {
+    width: 27%;
+  }
+  #above-footer-form .col-lg-42Half {
+    width: 36.5%;
+  }
+}
+#above-footer-form .card {
+  background-color: #2d729b;
+  border: none;
+  height: auto;
+  width: 95%;
+  border-radius: 0px;
+}
+#above-footer-form .card .footer-form label {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+#above-footer-form .card .footer-form form input,
+#above-footer-form .card .footer-form form textarea {
+  color: #000;
+  border-radius: 0px;
+  margin: 0 7% 10px 7%;
+  width: 86%;
+}
+#above-footer-form .card .footer-form form input::-moz-placeholder, #above-footer-form .card .footer-form form textarea::-moz-placeholder {
+  font-size: 15px;
+}
+#above-footer-form .card .footer-form form input:-ms-input-placeholder, #above-footer-form .card .footer-form form textarea:-ms-input-placeholder {
+  font-size: 15px;
+}
+#above-footer-form .card .footer-form form input::placeholder,
+#above-footer-form .card .footer-form form textarea::placeholder {
+  font-size: 15px;
+}
+#above-footer-form .card .footer-form form input[type=text] {
+  font-size: 15px;
+}
+#above-footer-form .card .footer-form form button {
+  border-radius: 0px;
 }/*# sourceMappingURL=main.css.map */

@@ -2,6 +2,47 @@ class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 
+    <section id="above-footer-form">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-42Half px-0">
+            <!-- <div class="container-fluid"> -->
+            <div class="row" style="height: 50%; background-color: #fff"></div>
+            <div class="row" style="height: 50%; background-color: #2d729b"></div>
+
+            <!-- </div> -->
+          </div>
+
+          <div class="col-lg-3Half px-0">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card">
+                <div class="footer-form">
+                  <label>Leave us a Message</label>
+
+                  <form class="text-center">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="" />
+
+                    <input type=" email" class="form-control" name="email" placeholder="Your Email" required="" />
+
+                    <textarea type="message" class="form-control" name="message" rows="3" placeholder="Message"
+                      required=""></textarea>
+
+                    <button class="btn btn-primary mb-1 text-center" type="submit">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-42Half px-0">
+            <div class="row" style="height: 50%; background-color: #fff"></div>
+            <div class="row" style="height: 50%; background-color: #2d729b"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="floating-whatsapp" class="py-0">
     <div class="container-fluid">
         <button

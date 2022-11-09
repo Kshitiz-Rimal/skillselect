@@ -42,8 +42,7 @@
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
 
             .card-header {
-                border-start-start-radius: 10px;
-                border-start-end-radius: 10px;
+                border-radius: 0;
                 background-color: #1a6f64;
                 border: none;
                 display: flex;

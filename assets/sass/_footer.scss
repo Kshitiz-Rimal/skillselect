@@ -145,7 +145,7 @@
 
 #above_footer {
     color: white;
-    padding: 2rem 0;
+    padding: 10px 0;
     background-color: #2D729B;
 
     .row {
@@ -159,27 +159,24 @@
             }
         }
 
-        .Services,
-        .Blogs {
-            label {
-                color: #fff;
-                padding-bottom: 7px;
+        .services,
+        .blogs,
+        .about-us {
+            p {
+                text-align: justify;
             }
 
             a {
                 color: #fff;
                 text-decoration: none;
+                display: block;
+                margin-bottom: 10px;
             }
         }
-
-
-
-
     }
 }
 
 footer {
-    // overflow-x: hidden;
     color: white;
     justify-content: center;
     align-items: center;

@@ -100,41 +100,38 @@ class MyFooter extends HTMLElement {
 
         <div class="container">
           <div class="row">
-            <div class="col-lg-3">
-              <div class="Services">
-                <label>Our Services</label><br />
-                <a href="./cdrreportwriting.html" class="bi-chevron-right">CDR Report Writing</a><br /><br />
-                <a href="./careerepwriting.html" class="bi-chevron-right">Career Episode Writing</a><br /><br />
-                <a href="./summarystatement.html" class="bi-chevron-right">Summary Statement</a><br /><br />
-                <a href="./acsrplreportwriting.html" class="bi-chevron-right">ACS RPL Report Writing</a><br /><br />
-                <a href="./ka02assessment.html" class="bi-chevron-right">KAO2 Knowledge assessment</a><br /><br />
-                <a href="./cdrreportreview.html" class="bi-chevron-right">CDR Review Services</a><br /><br />
-              </div>
-            </div>
+            
           
 
             <div class="col-lg-4">
-              <div class="Blogs">
-                <label>Our Blogs</label><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor, sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit, amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
+              <div class="about-us">
+                <h4>About Us</h4>
+                <p class="pe-lg-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, soluta? consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="services">
+                <h4>Our Services</h4>
+                <a href="./cdrreportwriting.html" class="bi-chevron-right">CDR Report Writing</a>
+                <a href="./careerepwriting.html" class="bi-chevron-right">Career Episode Writing</a>
+                <a href="./summarystatement.html" class="bi-chevron-right">Summary Statement</a>
+                <a href="./acsrplreportwriting.html" class="bi-chevron-right">ACS RPL Report Writing</a>
+                <a href="./ka02assessment.html" class="bi-chevron-right">KAO2 Knowledge assessment</a>
+                <a href="./cdrreportreview.html" class="bi-chevron-right">CDR Review Services</a>
               </div>
             </div>
 
 
-            <div class="col-lg-5">
-              <div class="Blogs">
-                <label>Our Blogs</label><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor, sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit, amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a><br /><br />
+            <div class="col-lg-4">
+              <div class="blogs">
+                <h4>Our Blogs</h4>
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor, sit amet.</a>
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit, amet.</a>
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
+                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
               </div>
             </div>
 

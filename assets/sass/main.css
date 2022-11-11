@@ -380,7 +380,7 @@ section {
 }
 #above_footer {
   color: white;
-  padding: 2rem 0;
+  padding: 10px 0;
   background-color: #2D729B;
 }
 #above_footer .row label {
@@ -391,15 +391,18 @@ section {
 #above_footer .row label a {
   font-size: 25;
 }
-#above_footer .row .Services label,
-#above_footer .row .Blogs label {
-  color: #fff;
-  padding-bottom: 7px;
+#above_footer .row .services p,
+#above_footer .row .blogs p,
+#above_footer .row .about-us p {
+  text-align: justify;
 }
-#above_footer .row .Services a,
-#above_footer .row .Blogs a {
+#above_footer .row .services a,
+#above_footer .row .blogs a,
+#above_footer .row .about-us a {
   color: #fff;
   text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
 }
 
 footer {

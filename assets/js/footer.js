@@ -8,7 +8,11 @@ class MyFooter extends HTMLElement {
           <div class="col-lg-42Half px-0">
             <!-- <div class="container-fluid"> -->
             <div class="row" style="height: 50%; background-color: #fff"></div>
-            <div class="row" style="height: 50%; background-color: #2d729b"></div>
+            <div class="row align-items-center text-center" style="height: 50%; background-color: #2d729b">
+              <div>
+                <!--<img src="./img/logo_whiteBG.png" alt="" class="img-fluid" height="33px" width="180px">-->
+              </div>
+            </div>
 
             <!-- </div> -->
           </div>

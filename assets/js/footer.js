@@ -104,19 +104,19 @@ class MyFooter extends HTMLElement {
 
         <div class="container">
           <div class="row">
-            
-          
 
-            <div class="col-lg-4">
+           <div class="col-lg-4 text-center">
               <div class="about-us">
-                <h4>About Us</h4>
-                <p class="pe-lg-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, soluta? consectetur adipisicing elit.</p>
+                <h5>About Us</h5>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, soluta? consectetur adipisicing elit.</p>
+                <h5>Address</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, fugiat?</p>
               </div>
             </div>
-
-            <div class="col-lg-4">
+            
+          <div class="col-lg-4">
               <div class="services">
-                <h4>Our Services</h4>
+                <h5>Our Services</h5>
                 <a href="./cdrreportwriting.html" class="bi-chevron-right">CDR Report Writing</a>
                 <a href="./careerepwriting.html" class="bi-chevron-right">Career Episode Writing</a>
                 <a href="./summarystatement.html" class="bi-chevron-right">Summary Statement</a>
@@ -126,16 +126,18 @@ class MyFooter extends HTMLElement {
               </div>
             </div>
 
+           
 
-            <div class="col-lg-4">
+            
+
+
+            <div class="col-lg-4 text-center">
               <div class="blogs">
-                <h4>Our Blogs</h4>
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor, sit amet.</a>
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit, amet.</a>
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
-                <a href="#" class="bi-chevron-right">Lorem ipsum dolor sit amet.</a>
+                <h5>Useful Links</h5>
+                <a href="./anzsco.html" class="bi-chevron-right">ANZSCO Codes</a>
+                <a href="./blog.html" class="bi-chevron-right">Blogs</a>
+                <a href="./cdrsamples.html" class="bi-chevron-right">CDR Samples</a>
+                
               </div>
             </div>
 

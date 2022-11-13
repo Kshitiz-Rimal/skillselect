@@ -160,7 +160,7 @@
         }
 
         .services,
-        .blogs,
+        .useful-links,
         .about-us {
             p {
                 text-align: justify;
@@ -172,6 +172,16 @@
                 display: block;
                 margin-bottom: 10px;
 
+            }
+        }
+
+        .useful-links {
+            .social {
+                font-size: larger;
+                justify-content: center;
+                text-align: center;
+                display: flex;
+                padding-top: 20px;
             }
         }
     }

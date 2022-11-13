@@ -105,16 +105,9 @@ class MyFooter extends HTMLElement {
         <div class="container">
           <div class="row">
 
-           <div class="col-lg-4 text-center">
-              <div class="about-us">
-                <h5>About Us</h5>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, soluta? consectetur adipisicing elit.</p>
-                <h5>Address</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, fugiat?</p>
-              </div>
-            </div>
+          
             
-          <div class="col-lg-4">
+            <div class="col-lg-4">
               <div class="services">
                 <h5>Our Services</h5>
                 <a href="./cdrreportwriting.html" class="bi-chevron-right">CDR Report Writing</a>
@@ -126,17 +119,29 @@ class MyFooter extends HTMLElement {
               </div>
             </div>
 
-           
+            <div class="col-lg-4 text-center">
+              <div class="about-us">
+                <h5>About Us</h5>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, soluta? consectetur adipisicing elit.</p>
+                <h5>Address</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, fugiat?</p>
+              </div>
+            </div>
 
             
 
 
             <div class="col-lg-4 text-center">
-              <div class="blogs">
+              <div class="useful-links">
                 <h5>Useful Links</h5>
                 <a href="./anzsco.html" class="bi-chevron-right">ANZSCO Codes</a>
                 <a href="./blog.html" class="bi-chevron-right">Blogs</a>
                 <a href="./cdrsamples.html" class="bi-chevron-right">CDR Samples</a>
+                <div class="social d-flex gap-4">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-youtube"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
                 
               </div>
             </div>

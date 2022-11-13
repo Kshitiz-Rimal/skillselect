@@ -392,17 +392,24 @@ section {
   font-size: 25;
 }
 #above_footer .row .services p,
-#above_footer .row .blogs p,
+#above_footer .row .useful-links p,
 #above_footer .row .about-us p {
   text-align: justify;
 }
 #above_footer .row .services a,
-#above_footer .row .blogs a,
+#above_footer .row .useful-links a,
 #above_footer .row .about-us a {
   color: #fff;
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
+}
+#above_footer .row .useful-links .social {
+  font-size: larger;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding-top: 20px;
 }
 
 footer {

@@ -134,6 +134,7 @@ section {
   border-radius: 0px;
   margin: 0 7% 10px 7%;
   width: 86%;
+  resize: none;
 }
 #hero .container > .row2 .card form input::-moz-placeholder, #hero .container > .row2 .card form textarea::-moz-placeholder {
   font-size: 15px;
@@ -451,7 +452,6 @@ footer p {
 }
 
 .hero-section {
-  min-height: 65vh;
   background-color: #006e9d;
   display: flex;
   justify-content: center;
@@ -480,6 +480,7 @@ footer p {
   border-radius: 0px;
   margin: 0 7% 10px 7%;
   width: 86%;
+  resize: none;
 }
 .hero-section .card form input::-moz-placeholder, .hero-section .card form textarea::-moz-placeholder {
   font-size: 15px;
@@ -535,6 +536,7 @@ footer p {
   border-radius: 0px;
   margin: 0 7% 10px 7%;
   width: 86%;
+  resize: none;
 }
 #above-footer-form .card .footer-form form input::-moz-placeholder, #above-footer-form .card .footer-form form textarea::-moz-placeholder {
   font-size: 15px;

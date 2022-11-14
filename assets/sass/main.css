@@ -514,6 +514,10 @@ footer p {
   text-decoration: none;
 }
 
+.price-list .col-sm-12 {
+  padding-bottom: 15px;
+}
+
 @media only screen and (min-width: 770px) {
   #above-footer-form .col-lg-3Half {
     width: 27%;

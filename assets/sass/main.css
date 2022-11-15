@@ -455,49 +455,50 @@ footer p {
   font-weight: bold;
 }
 
-.hero-section {
-  background-color: #006e9d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../../img/services-backgrond.png");
-}
-.hero-section .card {
+.card {
   background-color: #fff;
   border: none;
   border-radius: 0px;
 }
-.hero-section .card label {
+.card label {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
   padding-top: 10px;
 }
-.hero-section .card form {
+.card form {
   text-align: center;
   padding-bottom: 10px;
 }
-.hero-section .card form input,
-.hero-section .card form textarea {
+.card form input,
+.card form textarea {
   color: #000;
   border-radius: 0px;
   margin: 0 7% 10px 7%;
   width: 86%;
   resize: none;
 }
-.hero-section .card form input::-moz-placeholder, .hero-section .card form textarea::-moz-placeholder {
+.card form input::-moz-placeholder, .card form textarea::-moz-placeholder {
   font-size: 15px;
 }
-.hero-section .card form input:-ms-input-placeholder, .hero-section .card form textarea:-ms-input-placeholder {
+.card form input:-ms-input-placeholder, .card form textarea:-ms-input-placeholder {
   font-size: 15px;
 }
-.hero-section .card form input::placeholder,
-.hero-section .card form textarea::placeholder {
+.card form input::placeholder,
+.card form textarea::placeholder {
   font-size: 15px;
 }
-.hero-section .card form input[type=text] {
+.card form input[type=text] {
   font-size: 15px;
+}
+
+.hero-section {
+  background-color: #006e9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../img/services-backgrond.png");
 }
 .hero-section .hero-text {
   color: white;
@@ -516,6 +517,10 @@ footer p {
 
 .price-list .col-sm-12 {
   padding-bottom: 15px;
+}
+
+.contact-us i {
+  font-size: larger;
 }
 
 @media only screen and (min-width: 770px) {
